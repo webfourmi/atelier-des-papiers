@@ -1,6 +1,40 @@
 {
-  "version": "0.6.0",
+  "version": "0.6.1",
   "releases": [
+    {
+      "version": "0.6.1",
+      "date": "2026-11-08",
+      "title": "Le tag vintage entièrement harmonisé",
+      "intro": "Premier ancien projet remis au nouveau format : les neuf photographies initiales sont conservées et enrichies de neuf schémas originaux pour suivre les gestes avec précision.",
+      "sections": [
+        {
+          "title": "Tag vintage Distress revisité",
+          "items": [
+            "Les neuf photographies du tutoriel sont conservées, avec neuf schémas techniques supplémentaires agrandissables.",
+            "Un schéma coté du tag 7 × 12 cm précise les biseaux de 10 mm et le trou Ø 5 mm, centré à 10 mm du bord supérieur.",
+            "Les gestes d'estompage, de patine des bords, de gouttelettes, de tamponnage et de nouage disposent maintenant d'une vue explicative.",
+            "Le patron PDF imprimable à taille réelle reste accessible sans changement."
+          ]
+        },
+        {
+          "title": "Structure commune des projets",
+          "items": [
+            "Ajout d'un encadré « Préparer ton espace de travail » avant les étapes du projet.",
+            "Section « Dans quel ordre superposer ? » pour comprendre l'enchaînement des encres et embellissements.",
+            "Fiche technique illustrée SVG, imprimable en plus du patron original.",
+            "Photographies d'illustration générées et schémas présentés distinctement ; agrandissement des deux depuis chaque étape."
+          ]
+        },
+        {
+          "title": "Stabilité et maintenance",
+          "items": [
+            "Même identifiant de projet et mêmes neuf étapes : cases de progression et favoris conservés.",
+            "Notes, photos et sauvegardes personnelles inchangées.",
+            "Premier projet d'une série de remises à niveau, sans remplacement massif des anciens contenus."
+          ]
+        }
+      ]
+    },
     {
       "version": "0.6.0",
       "date": "2026-11-08",

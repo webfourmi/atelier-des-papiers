@@ -1,4 +1,4 @@
-const CACHE='atelier-papiers-v0.6.0';
+const CACHE='atelier-papiers-v0.6.1';
 const CORE=['./','./index.html','./styles.css','./data.js','./app.js','./sketches.js','./sketch-ui.js','./manifest.webmanifest','./pwa.js','./changelog.json','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png',
 './assets/hero-autumn.svg','./assets/hero-winter.svg','./assets/hero-spring.svg','./assets/hero-summer.svg','./assets/stamps.svg','./assets/inks.svg','./assets/gradient.svg','./assets/emboss.svg','./assets/stencils.svg','./assets/card.svg','./assets/album.svg','./assets/journal.svg','./assets/tag.svg','./assets/photo.svg','./assets/gift.svg','./assets/sketch.svg','./assets/patron-tag-7x12cm.pdf','./assets/tag-vintage-final.webp','./assets/tag-photo-01.webp','./assets/tag-photo-02.webp','./assets/tag-photo-03.webp','./assets/tag-photo-04.webp','./assets/tag-photo-05.webp','./assets/tag-photo-06.webp','./assets/tag-photo-07.webp','./assets/tag-photo-08.webp','./assets/tag-photo-09.webp',
 './assets/duo-ink-oxide-01.webp',
@@ -34,7 +34,17 @@ const CORE=['./','./index.html','./styles.css','./data.js','./app.js','./sketche
 './assets/carte-coordonnee-06.svg',
 './assets/carte-coordonnee-finale.svg',
 './assets/guide-page-jardin.svg',
-'./assets/guide-carte-botanique.svg'];
+'./assets/guide-carte-botanique.svg',
+'./assets/tag-technique-01.svg',
+'./assets/tag-technique-02.svg',
+'./assets/tag-technique-03.svg',
+'./assets/tag-technique-04.svg',
+'./assets/tag-technique-05.svg',
+'./assets/tag-technique-06.svg',
+'./assets/tag-technique-07.svg',
+'./assets/tag-technique-08.svg',
+'./assets/tag-technique-09.svg',
+'./assets/fiche-tag-vintage.svg'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(async()=>{const keys=await caches.keys();if(keys.includes('atelier-papiers-v0.2.0'))await self.skipWaiting()}))});;
 self.addEventListener('message',e=>{if(e.data?.type==='SKIP_WAITING')self.skipWaiting()});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('atelier-papiers-')&&k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim()});

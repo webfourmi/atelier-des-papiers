@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 794 1123">
+<defs><radialGradient id="ink"><stop stop-color="#efd7a9"/><stop offset=".72" stop-color="#d5ac7c"/><stop offset="1" stop-color="#9f6c48"/></radialGradient><pattern id="grain" width="11" height="11" patternUnits="userSpaceOnUse"><path d="M2 5l4-2" stroke="#98836a" stroke-width=".8" opacity=".12"/></pattern></defs>
+<rect width="794" height="1123" fill="#f7f1e7"/><rect x="26" y="24" width="742" height="1075" fill="none" stroke="#ccbaa4" stroke-width="2"/>
+<text x="55" y="75" font-size="23" font-family="Georgia" fill="#7a856f">L’ATELIER DES PAPIERS</text>
+<text x="55" y="120" font-size="38" font-family="Georgia" fill="#524435">TAG VINTAGE</text>
+<text x="55" y="151" font-size="20" font-family="Georgia" fill="#755f4d">Distress Ink · tampon botanique · ficelle</text>
+<rect x="51" y="184" width="692" height="225" rx="14" fill="#e9dac5"/>
+<g transform="translate(109 195)">
+ <path d="M39 2H165L203 40V199H0V40Z" fill="url(#ink)" stroke="#916848" stroke-width="4"/>
+ <path d="M39 2H165L203 40V199H0V40Z" fill="url(#grain)"/>
+ <circle cx="101" cy="40" r="8" fill="#f7f1e7" stroke="#9c795c" stroke-width="3"/>
+ <path d="M98 179Q75 104 106 73M95 152Q63 123 57 111M100 129Q131 103 140 86M102 102Q80 83 75 70" stroke="#445744" stroke-width="3" fill="none"/>
+ <ellipse cx="65" cy="120" rx="23" ry="7" transform="rotate(37 65 120)" fill="#7c9479"/>
+ <ellipse cx="126" cy="96" rx="22" ry="7" transform="rotate(-35 126 96)" fill="#7c9479"/>
+ <path d="M101 34Q53 -15 78 -31Q117 -47 101 34" fill="none" stroke="#b38b67" stroke-width="4"/>
+</g>
+<text x="359" y="232" font-size="23" font-family="Georgia" fill="#6a523f">Format terminé : 7 × 12 cm</text>
+<text x="359" y="267" font-size="18" fill="#65564a" font-family="Arial">Deux coins coupés à 10 × 10 mm</text>
+<text x="359" y="298" font-size="18" fill="#65564a" font-family="Arial">Trou Ø 5 mm : axe central</text>
+<text x="359" y="327" font-size="18" fill="#65564a" font-family="Arial">à 10 mm du bord supérieur</text>
+<text x="359" y="368" font-size="17" font-family="Arial" fill="#88684b">Le patron PDF séparé est à 100 %.</text>
+<text x="55" y="454" font-size="27" font-family="Georgia" fill="#6d785e">La méthode en neuf gestes</text>
+<g transform="translate(58 488)"><circle cx="13" cy="0" r="14" fill="#a17c5b"/><text x="13" y="5" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="white">1</text><text x="40" y="6" font-size="19" font-family="Arial" fill="#5b4b3b">Préparer les encres et le papier</text></g><g transform="translate(58 532)"><circle cx="13" cy="0" r="14" fill="#81917b"/><text x="13" y="5" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="white">2</text><text x="40" y="6" font-size="19" font-family="Arial" fill="#5b4b3b">Tracer le format 70 × 120 mm</text></g><g transform="translate(58 576)"><circle cx="13" cy="0" r="14" fill="#a17c5b"/><text x="13" y="5" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="white">3</text><text x="40" y="6" font-size="19" font-family="Arial" fill="#5b4b3b">Découper les deux biseaux</text></g><g transform="translate(58 620)"><circle cx="13" cy="0" r="14" fill="#81917b"/><text x="13" y="5" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="white">4</text><text x="40" y="6" font-size="19" font-family="Arial" fill="#5b4b3b">Percer le trou Ø 5 mm</text></g><g transform="translate(58 664)"><circle cx="13" cy="0" r="14" fill="#a17c5b"/><text x="13" y="5" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="white">5</text><text x="40" y="6" font-size="19" font-family="Arial" fill="#5b4b3b">Estomper la teinte claire</text></g><g transform="translate(58 708)"><circle cx="13" cy="0" r="14" fill="#81917b"/><text x="13" y="5" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="white">6</text><text x="40" y="6" font-size="19" font-family="Arial" fill="#5b4b3b">Patiner les quatre bords</text></g><g transform="translate(58 752)"><circle cx="13" cy="0" r="14" fill="#a17c5b"/><text x="13" y="5" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="white">7</text><text x="40" y="6" font-size="19" font-family="Arial" fill="#5b4b3b">Déposer de petites gouttes d’eau</text></g><g transform="translate(58 796)"><circle cx="13" cy="0" r="14" fill="#81917b"/><text x="13" y="5" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="white">8</text><text x="40" y="6" font-size="19" font-family="Arial" fill="#5b4b3b">Tamponner quand le fond est sec</text></g><g transform="translate(58 840)"><circle cx="13" cy="0" r="14" fill="#a17c5b"/><text x="13" y="5" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="white">9</text><text x="40" y="6" font-size="19" font-family="Arial" fill="#5b4b3b">Nouer une ficelle, photographier</text></g>
+<line x1="53" y1="911" x2="741" y2="911" stroke="#c3aa90" stroke-width="2"/>
+<text x="55" y="949" font-size="24" font-family="Georgia" fill="#6d785e">À retenir</text>
+<text x="55" y="981" font-size="17" font-family="Arial" fill="#605447">• Commencer l’encrage sur un brouillon, puis entrer sur le tag.</text>
+<text x="55" y="1009" font-size="17" font-family="Arial" fill="#605447">• Tamponner l’eau délicatement, puis laisser sécher totalement.</text>
+<text x="55" y="1037" font-size="17" font-family="Arial" fill="#605447">• Utiliser une encre de contour permanente une fois sèche.</text>
+<text x="55" y="1072" font-size="15" font-family="Arial" fill="#887766">Schéma de démonstration non à l’échelle · Patron 1:1 disponible dans le projet.</text>
+</svg>

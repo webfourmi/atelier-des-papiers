@@ -2,7 +2,7 @@
 
 Une première version **PWA statique** de l'application personnelle de scrapbooking, conçue pour mobile et ordinateur.
 
-## Contenu (version 0.6.0)
+## Contenu (version 0.6.1)
 
 - Accueil avec thème graphique au choix : printemps, été, automne, hiver.
 - Neuf cours progressifs avec matériel, conseils, schémas pédagogiques, erreurs à éviter, exercices, progression mémorisée et notes personnelles.
@@ -14,6 +14,19 @@ Une première version **PWA statique** de l'application personnelle de scrapbook
 - PWA hors connexion après une première visite en ligne.
 - Icône et bouton d'installation sur Android, iOS, Chrome et Edge lorsque le navigateur le permet.
 - Vérification de version depuis Mon atelier, notification de mise à jour, installation après confirmation et journal détaillé affiché une seule fois par version.
+
+## Nouveautés 0.6.1 : harmonisation du tag vintage Distress
+
+Premier projet historique remis au format des tutoriels récents, **sans modifier son identifiant ni ses neuf étapes enregistrées**.
+
+- Neuf photographies d'illustration préexistantes conservées.
+- Neuf schémas SVG supplémentaires, zoomables depuis chaque étape : mesures, découpes, œillet, encrage, eau, empreinte et finition.
+- Préparation du matériel, ordre des couches, conseils et erreurs à éviter.
+- Patron PDF 7 × 12 cm à taille réelle préservé ; nouvelle fiche SVG A4 à imprimer (schéma récapitulatif non à l'échelle).
+- Les illustrations sont explicitement distinguées des photographies d'essais exécutés.
+- Les données locales, favoris, photos et progression sont préservés. Une mise à jour du service worker ajoute les images SVG au cache hors ligne.
+
+Références vérifiées : [FAQ Ranger Ink](https://rangerink.com/pages/faqs) et [Distress Imagination Tag](https://rangerink.com/blogs/projects/distress-imagination-tag).
 
 ## Nouveautés 0.6.0 : projets complets avec papiers coordonnés
 

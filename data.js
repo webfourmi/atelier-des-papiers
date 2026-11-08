@@ -1,5 +1,5 @@
 window.ATELIER_DATA = {
-  version:'0.6.0',
+  version:'0.6.1',
   families:[
     {id:'tampons',label:'Tampons & impression',icon:'stamp'},
     {id:'encres',label:'Encres & fonds',icon:'droplets'},
@@ -647,3 +647,38 @@ window.ATELIER_DATA.projects.unshift({
   ]
 });
 window.ATELIER_DATA.inspirations.unshift({"title":"Jardin de saison","subtitle":"Page photo, papiers floraux et superpositions","image":"jardin-page-finale.svg","filter":"Pages photo"},{"title":"Carterie botanique","subtitle":"Trois papiers coordonnés pour une carte élégante","image":"carte-coordonnee-finale.svg","filter":"Carterie"});
+
+
+/* Version 0.6.1 · Harmonisation du premier projet historique : tag vintage */
+(()=>{
+const p=window.ATELIER_DATA.projects.find(x=>x.id==='tag-vintage');
+if(!p)return;
+p.tutorialLabel="L'ART DES TAGS · DISTRESS INK";
+p.visualNote="Photographies d'illustration générées et schémas originaux de mesure. Leurs rendus sont indicatifs ; suis les gestes et dimensions écrits pour ton propre matériel.";
+p.guide="./assets/fiche-tag-vintage.svg";
+p.patternPreview="tag-technique-02.svg";
+p.preparation="Protéger la table, vérifier le patron imprimé à taille réelle grâce au trait de 5 cm et préparer une chute du même papier. Avant d'encrer le tag, tester sur cette chute les mouvements de mousse et les gouttelettes d'eau. Garder l'emplacement de l'œillet dégagé pendant la décoration.";
+p.layerGuide=[
+"1. Papier ivoire 7 × 12 cm : découpe des biseaux et perçage à sec.",
+"2. Fond clair : Antique Linen ou Scattered Straw appliquée progressivement.",
+"3. Patine des bords : Tea Dye ou Vintage Photo, éventuellement une pointe de Walnut Stain.",
+"4. Effet de gouttes : eau, épongeage délicat, puis séchage intégral.",
+"5. Motif botanique : encre de contour permanente et résistante à l'eau une fois sèche.",
+"6. Éléments de finition : œillet, ficelle, petite étiquette, sans surcharger."
+];
+p.tipsIntro="Le fond est réalisé en Distress Ink, une encre à colorants réactive à l'eau. L'empreinte botanique utilise une encre Archival, permanente et résistante à l'eau après séchage.";
+p.steps.forEach((st,i)=>{
+ st.diagram="tag-technique-"+String(i+1).padStart(2,'0')+".svg";
+ st.diagramCaption=[
+  "Disposition du matériel et du tag avant le travail",
+  "Dimensions exactes : 70 × 120 mm et biseaux de 10 mm",
+  "Emplacement des deux découpes en biais",
+  "Axe du trou Ø 5 mm, centré à 10 mm du haut",
+  "Mouvements doux pour poser la couleur claire",
+  "Patine plus soutenue sur les bords, centre lumineux",
+  "Gouttelettes d’eau et zones éclaircies",
+  "Tampon botanique net sur un fond totalement sec",
+  "Position de l’œillet, de la ficelle et de l’étiquette"
+ ][i];
+});
+})();

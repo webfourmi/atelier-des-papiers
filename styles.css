@@ -155,3 +155,30 @@ body[data-season="hiver"]{--primary:#687b89;--primary-strong:#465969;--primary-l
 .collection-actions{display:flex;gap:9px;flex-wrap:wrap;margin:16px 0}
 .collection-guide .text-link{display:inline-flex;margin-top:7px}
 @media(max-width:580px){.collection-roles{grid-template-columns:1fr}.collection-actions .btn{width:100%}}
+
+/* V0.6.1 • Premier projet harmonisé : tag vintage Distress */
+.tag-stage-gallery{min-width:0;display:grid;grid-template-rows:minmax(265px,1fr);background:#e8dac4;overflow:hidden}
+.tag-stage-gallery-two{grid-template-rows:minmax(230px,1fr) 170px}
+.tag-stage-gallery .tag-stage-photo{width:100%;min-height:0;position:relative}
+.tag-stage-diagram{width:100%;border:0;border-top:1px solid #cdb79b;background:#faf4e8;display:flex;align-items:center;justify-content:flex-start;gap:10px;text-align:left;padding:8px 10px;cursor:zoom-in;color:#684f3f;min-width:0}
+.tag-stage-diagram img{display:block;width:53%;height:100%;max-height:152px;object-fit:contain;border-radius:7px;border:1px solid #e0cfb5;background:#f6e9d5}
+.tag-stage-diagram span{display:flex;align-items:center;gap:5px;font-size:.78rem;font-weight:700;line-height:1.4;max-width:140px}
+.tag-stage-diagram:hover,.tag-stage-diagram:focus-visible{background:#efe1cb}
+.tag-stage-gallery button:focus-visible{outline:3px solid #8b7158;outline-offset:-4px}
+.tag-plan-preview{width:100%;max-width:250px;max-height:200px;object-fit:contain;display:block;margin-inline:auto;border:1px solid #d7c3a9;border-radius:9px}
+.tag-preparation{margin:18px 0 0}
+.tag-preparation h2{font-family:var(--font-serif);font-weight:normal;margin:8px 0 14px}
+.tag-technique-note{border-left:3px solid #9d7757;background:#f3e7d5;padding:13px 16px;border-radius:0 10px 10px 0;color:#655042;font-size:.9rem;line-height:1.65;margin-top:13px}
+.tag-technique-note .icon{display:inline-block;vertical-align:middle;margin-right:3px}
+@media(max-width:720px){
+.tag-stage-gallery-two{grid-template-rows:250px 140px}
+.tag-stage-gallery:not(.tag-stage-gallery-two){min-height:260px}
+.tag-stage-diagram{padding:8px 12px}
+.tag-stage-diagram img{width:55%;max-height:124px}
+.tag-stage-diagram span{max-width:none}
+}
+@media(max-width:420px){
+.tag-stage-gallery-two{grid-template-rows:216px 126px}
+.tag-stage-diagram img{width:50%;max-height:108px}
+.tag-stage-diagram span{font-size:.72rem}
+}
