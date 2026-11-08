@@ -1,6 +1,42 @@
 {
-  "version": "0.6.1",
+  "version": "0.6.2",
   "releases": [
+    {
+      "version": "0.6.2",
+      "date": "2026-11-08",
+      "title": "Tag vintage corrigé et Tags givrés entièrement refaits",
+      "intro": "Correction demandée après vérification sur téléphone : une seule image visible par étape, vignette du Tag vintage remise à jour, et projet Tags givrés harmonisé avec les ateliers récents.",
+      "sections": [
+        {
+          "title": "Correction du Tag vintage",
+          "items": [
+            "La galerie des projets affiche enfin la photographie finale du Tag vintage, au lieu de son ancienne vignette générique.",
+            "Sur mobile et ordinateur, les schémas ne sont plus empilés sous les photographies d’étapes.",
+            "Chaque schéma technique reste consultable séparément avec le bouton « Voir le schéma technique ».",
+            "Le patron PDF 7 × 12 cm, les neuf photographies, les neuf schémas, les favoris et la progression sont conservés."
+          ]
+        },
+        {
+          "title": "Tags givrés : refonte complète",
+          "items": [
+            "Projet hivernal de trois tags de 7 × 12 cm, organisé en neuf étapes détaillées : découpe, couleurs, eau, tamponnage, embossage, texture et finitions.",
+            "Nouvelle couverture illustrée et neuf illustrations techniques originales agrandissables.",
+            "Liste de matériel précise, préparation, conseils pour chaque étape, erreurs fréquentes et ordre des superpositions.",
+            "Patron PDF 1:1 commun aux tags et nouvelle fiche illustrée imprimable au format SVG.",
+            "Trois variantes : Nuit polaire, Hiver doux et Forêt enneigée."
+          ]
+        },
+        {
+          "title": "Précautions et stabilité",
+          "items": [
+            "Ordre clarifié : travailler sur support sec pour l’embossage à chaud, puis appliquer la pâte neigeuse après refroidissement et laisser sécher à l’air.",
+            "Les images numériques sont signalées comme des illustrations et ne sont pas présentées comme des photographies d’essais réels.",
+            "Les données locales et les projets personnels restent inchangés ; aucun identifiant de projet n’est remplacé.",
+            "La navigation mobile et les projets déjà harmonisés sont conservés."
+          ]
+        }
+      ]
+    },
     {
       "version": "0.6.1",
       "date": "2026-11-08",

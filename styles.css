@@ -182,3 +182,24 @@ body[data-season="hiver"]{--primary:#687b89;--primary-strong:#465969;--primary-l
 .tag-stage-diagram img{width:50%;max-height:108px}
 .tag-stage-diagram span{font-size:.72rem}
 }
+
+/* V0.6.2 • Une image par étape : suppression du schéma parasite sous la photo */
+.tag-stage-gallery{display:grid;grid-template-rows:minmax(280px,1fr);min-width:0;overflow:hidden;background:#e9dfd1}
+.tag-stage-gallery .tag-stage-photo{display:block;position:relative;min-height:280px;height:100%;width:100%;padding:0;border:0}
+.tag-stage-gallery .tag-stage-photo>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.tag-stage-gallery .tag-stage-photo>img[src$=".svg"]{object-fit:contain;background:#e1d8cc}
+.tag-schema-button{width:fit-content;max-width:100%;display:inline-flex;gap:8px;align-items:center;justify-content:center}
+.tag-schema-button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.tag-stage-text .tag-schema-button{margin-top:0;margin-bottom:0}
+.tag-cover img[src$=".svg"]{object-fit:contain;background:#dfd6c8}
+.tag-stage-diagram{display:none!important}
+@media(max-width:720px){
+  .tag-stage-gallery{min-height:250px;grid-template-rows:250px}
+  .tag-stage-gallery .tag-stage-photo{min-height:250px;height:250px}
+  .tag-stage-gallery .tag-stage-photo img{inset:0}
+}
+@media(max-width:420px){
+  .tag-stage-gallery{grid-template-rows:225px;min-height:225px}
+  .tag-stage-gallery .tag-stage-photo{height:225px;min-height:225px}
+  .tag-schema-button{width:100%}
+}

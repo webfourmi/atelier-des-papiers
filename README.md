@@ -2,7 +2,7 @@
 
 Une première version **PWA statique** de l'application personnelle de scrapbooking, conçue pour mobile et ordinateur.
 
-## Contenu (version 0.6.1)
+## Contenu (version 0.6.2)
 
 - Accueil avec thème graphique au choix : printemps, été, automne, hiver.
 - Neuf cours progressifs avec matériel, conseils, schémas pédagogiques, erreurs à éviter, exercices, progression mémorisée et notes personnelles.
@@ -14,6 +14,30 @@ Une première version **PWA statique** de l'application personnelle de scrapbook
 - PWA hors connexion après une première visite en ligne.
 - Icône et bouton d'installation sur Android, iOS, Chrome et Edge lorsque le navigateur le permet.
 - Vérification de version depuis Mon atelier, notification de mise à jour, installation après confirmation et journal détaillé affiché une seule fois par version.
+
+## Nouveautés 0.6.2 : corrections visuelles et Tags givrés
+
+### Correction du Tag vintage
+
+- Correction de l'image dans la galerie des projets : le visuel final `tag-vintage-final.webp` remplace l’ancienne vignette `tag.svg`.
+- Correction mobile : ne plus empiler le schéma sous la photo d’étape. Les neuf schémas techniques restent accessibles par un bouton **« Voir le schéma technique »** dans les explications.
+- Même ID `tag-vintage`, même progression et mêmes photographies.
+
+### Refonte du projet Tags givrés
+
+- Conservé sous l’ID `tags-hiver`, désormais au format détaillé des projets pédagogiques récents.
+- Trois tags d’hiver, 7 × 12 cm, avec **9 étapes** complètes et illustrations SVG originales individuelles, plus la couverture générale.
+- Matériel, préparation, conseils, erreurs fréquentes, progression, variantes, ordre des couches, ressources officielles Ranger.
+- Réutilisation du **patron PDF 7 × 12 cm** à taille réelle, et nouvelle fiche récapitulative SVG.
+- Images SVG = illustrations pédagogiques, pas photographies de gestes réellement exécutés.
+
+### Précautions
+
+Embossage à chaud : encre adaptée, poudre puis pistolet chauffant sur support résistant. Pâte à texture : application après chauffage et séchage à l’air selon le fabricant.
+
+Références : [Ranger, How to Heat Emboss](https://rangerink.com/blogs/videos/how-to-heat-emboss) et [Grit Paste Snowfall](https://rangerink.com/products/tim-holtz-distress-grit-paste-snowfall).
+
+Toutes les données locales restent inchangées. Nouvelle version PWA mise en cache avec activation à la demande.
 
 ## Nouveautés 0.6.1 : harmonisation du tag vintage Distress
 

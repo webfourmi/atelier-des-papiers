@@ -1,5 +1,5 @@
 window.ATELIER_DATA = {
-  version:'0.6.1',
+  version:'0.6.2',
   families:[
     {id:'tampons',label:'Tampons & impression',icon:'stamp'},
     {id:'encres',label:'Encres & fonds',icon:'droplets'},
@@ -49,12 +49,165 @@ window.ATELIER_DATA = {
     {id:'junk-journal',number:8,title:'Le jardin oublié',subtitle:'Première page de junk journal & mixed media',family:'mixed',level:'Découverte +',duration:'1 h 15',image:'journal',description:'Combiner collages, encres et motifs autour d’un souvenir imaginaire.',outcome:'Une double page A5 avec point focal, textures et écriture.',materials:['Carnet à papier résistant','Chutes de papiers et reproductions de lettres','Colle compatible avec le support','Encre brune, tampon botanique','Pochoir et gesso facultatifs','Étiquette et crayon'],preparation:'Choisir des copies pour les documents précieux. Protéger la table et faire un essai de collage.',steps:[{title:'Composer à blanc',body:'Choisir trois papiers et les disposer sans coller pour créer une diagonale et un point focal.',tip:'Garder une zone de respiration.',views:['Papiers disposés','Composition épurée']},{title:'Coller les couches',body:'Déchirer ou couper les fragments, puis les coller du fond vers l’avant.',tip:'Éviter les bulles en lissant du centre vers les bords.',views:['Collage en cours','Couches stabilisées']},{title:'Ajouter de la texture',body:'Si désiré, déposer un voile fin de gesso et quelques motifs au pochoir ; laisser sécher complètement.',tip:'Une épaisseur modérée protège la souplesse du carnet.',views:['Voile de gesso','Motif au pochoir']},{title:'Patiner et tamponner',body:'Vieillir quelques bordures avec une encre brune puis ajouter un motif botanique sur une zone sèche.',tip:'Laisser des contrastes suffisants pour la lecture du motif.',views:['Patine des bords','Motif tamponné']},{title:'Raconter une histoire',body:'Ajouter une étiquette datée, trois lignes de journal ou une courte citation personnelle.',tip:'Un détail manuscrit rend la page singulière.',views:['Détail de l’écriture','Double page terminée']}],mistakes:['Gesso humide : attendre avant d’encrer.','Trop d’éléments : masquer le point focal.'],challenge:'Créer une page sur un lieu réel ou imaginaire et expliquer pourquoi tu as choisi ses textures.',sources:[]}
   ],
   projects:[
-    {"id":"tag-vintage","title":"Tag vintage aux encres Distress","category":"Tags","season":"automne","level":"Découverte","duration":"55 à 70 min","image":"tag","coverPhoto":"tag-vintage-final.webp","tutorial":true,"description":"Un tag de 7 × 12 cm aux couleurs de l’automne, avec un fond patiné à la Distress Ink, des effets d’eau et une empreinte botanique précise.","courseIds":["tamponnage","encres","degrades"],"materials":["Papier cartonné ivoire ou manille 200 à 300 g/m² (au moins 7 × 12 cm)","Règle, crayon, massicot ou ciseaux, perforatrice Ø 5 mm","Encre Distress Ink Antique Linen ou Scattered Straw (fond clair)","Encre Distress Ink Vintage Photo ou Tea Dye (patine brune)","Encre Distress Ink Walnut Stain (bords, facultatif)","Outil applicateur mousse ou brosse à encrer","Mini-vaporisateur d’eau, essuie-tout et surface protégée","Tampon botanique et encre Archival noire ou sépia, résistant à l’eau une fois sec","Ficelle de lin, ruban ou œillet de décoration (facultatif)"],"preparation":"Commencer par protéger la table. Effectuer un test des encres sur une chute du même papier. On peut réaliser le projet avec une marque différente si les encres réagissent bien à l’eau.","pattern":"./assets/patron-tag-7x12cm.pdf","patternDescription":"Patron PDF A4 avec deux tags de 70 × 120 mm, coins coupés à 10 mm, trou Ø 5 mm placé à 10 mm du bord supérieur et trait de contrôle de 5 cm. Imprimer à taille réelle (100 %).","steps":[{"title":"Rassembler le matériel","duration":"5 min","body":"Préparer trois coussinets dans une gamme claire, ocre et brune, un applicateur, du papier ivoire, une perforatrice, une branche botanique et un peu de ficelle. Réserver une chute pour les essais.","tip":"Deux encres suffisent pour une première version : une teinte claire et un brun de patine.","mistake":"Commencer directement sur la pièce finale sans tester la réaction du papier à l’eau.","photo":"tag-photo-01.webp","caption":"Matériel disposé avant de commencer : trois encres, applicateur, bloc et papier."},{"title":"Tracer le patron 7 × 12 cm","duration":"5 min","body":"À l’aide du patron imprimé à 100 %, tracer un rectangle de 70 mm de large sur 120 mm de haut. Sur les deux coins supérieurs, marquer 10 mm depuis le haut et 10 mm depuis chaque côté pour obtenir deux biseaux symétriques.","tip":"Contrôler le trait de 5 cm sur le PDF avec une règle. Si ce trait est plus court, désactiver « Ajuster à la page ».","mistake":"Confondre 7 × 12 cm avec un format de 7 × 12 pouces ou imprimer le patron à échelle réduite.","photo":"tag-photo-02.webp","caption":"Tracer les biseaux des coins supérieurs avec une règle."},{"title":"Découper les coins","duration":"4 min","body":"Découper d’abord le rectangle, puis les deux segments obliques des coins supérieurs. Garder un bord propre : la patine des encres viendra ensuite assouplir visuellement la découpe.","tip":"Une paire de ciseaux à lames fines suffit ; pour une série, utiliser un massicot et un gabarit.","mistake":"Couper deux coins de tailles différentes : le ruban paraîtra décentré.","photo":"tag-photo-03.webp","caption":"Découpe précise de l’angle supérieur suivant les repères."},{"title":"Percer le trou","duration":"3 min","body":"Marquer un point à 35 mm du bord gauche et 10 mm sous le bord supérieur du tag. Perforer un trou de 5 mm de diamètre, centré sur ce repère. Poser éventuellement un œillet en fin de travail.","tip":"Perforer avant l’encrage évite de plier ou d’abîmer le fond fini.","mistake":"Percer trop près du bord : le tag risque de se déchirer quand on noue la ficelle.","photo":"tag-photo-04.webp","caption":"Perforation au centre de la bordure supérieure."},{"title":"Poser la teinte claire","duration":"8 min","body":"Charger très légèrement la mousse avec Antique Linen (ou une autre Distress claire). Commencer le geste circulaire sur un brouillon puis entrer progressivement sur le papier. Garder le centre plus lumineux que les bords.","tip":"Multiplier les passages très légers plutôt qu’une couche forte.","mistake":"Appuyer dès le premier contact avec une mousse saturée : des cercles foncés peuvent rester visibles.","photo":"tag-photo-05.webp","caption":"Application de la première couche claire au centre et près des bords."},{"title":"Patiner les bords","duration":"8 min","body":"Ajouter Vintage Photo ou Tea Dye en mouvements circulaires légers depuis l’extérieur vers l’intérieur du tag. Insister doucement aux angles et laisser quelques zones ivoire visibles. Avec Walnut Stain, accentuer seulement l’extrême bord si souhaité.","tip":"Un petit dégradé progressif est souvent plus convaincant qu’un contour brun uniforme et épais.","mistake":"Poser trop d’encre sombre partout : le tag perd sa lumière et les tampons sont moins lisibles.","photo":"tag-photo-06.webp","caption":"Patine brune progressive appliquée sur le périmètre."},{"title":"Créer des traces d’eau","duration":"8 min + séchage","body":"Sur les encres bien appliquées, laisser tomber quelques gouttelettes d’eau ou brumiser très légèrement. Patienter environ 5 à 10 secondes puis tamponner l’excès avec un essuie-tout. Laisser sécher complètement avant le tamponnage final.","tip":"Tester d’abord sur une chute : plus le papier est poreux, plus les gouttes diffusent.","mistake":"Tremper le tag ou le manipuler encore humide : le papier peut gondoler et le motif final baver.","photo":"tag-photo-07.webp","caption":"Effet de gouttelettes d’eau sur le fond encré, avant séchage."},{"title":"Tamponner le motif botanique","duration":"8 min","body":"Sur le tag sec, encrer un tampon botanique avec une Archival noire ou sépia. Imprimer verticalement sans mouvement latéral, en conservant le haut dégagé pour le trou. Ajouter éventuellement un petit motif d’écriture, de manière discrète.","tip":"Une encre Archival sèche résiste à l’eau, mais ici elle intervient à la toute fin, lorsque le fond est déjà bien sec.","mistake":"Tamponner tant que le fond est humide ou trop près du trou, ce qui brouille la composition.","photo":"tag-photo-08.webp","caption":"Impression nette du tampon botanique sur le tag sec."},{"title":"Fixer la ficelle et photographier","duration":"6 min","body":"Passer une ficelle de lin ou un ruban étroit dans le trou. Nouer sans forcer. Facultativement, ajouter un petit morceau de papier imprimé, une étiquette ou un œillet. Photographier le tag terminé, puis enregistrer ta version dans Mon carnet.","tip":"Une zone vide et un seul motif principal donnent souvent davantage de caractère qu’une accumulation d’embellissements.","mistake":"Ajouter trop d’éléments en relief avant que les encres ou la colle aient séché.","photo":"tag-photo-09.webp","caption":"Résultat final : tag patiné, motif botanique et ficelle de lin."}],"mistakes":["Un départ d’encrage trop appuyé laisse des marques de mousse : commencer sur un brouillon.","Une patine trop foncée étouffe les détails. Garder un centre plus clair.","La réaction à l’eau dépend du papier et de la quantité d’encre : tester avant.","Pour une empreinte nette, tamponner uniquement quand le fond est sec."],"variants":["Version douce : Antique Linen + Tea Dye, sans Walnut Stain.","Version sous-bois : Peeled Paint + Vintage Photo et tampon feuille.","Version hiver : Weathered Wood + Hickory Smoke, avec ruban bleu gris."],"sources":[{"label":"Ranger Ink : Distress Imagination Tag (fond et gouttelettes)","url":"https://rangerink.com/blogs/projects/distress-imagination-tag"},{"label":"Ranger Ink : Distress Ink et Oxide, questions fréquentes","url":"https://rangerink.com/pages/faqs"},{"label":"Ranger Ink : Distressed Tag Journal","url":"https://rangerink.com/blogs/projects/distressed-tag-journal-by-tim-holtz"}]},
+    {"id":"tag-vintage","title":"Tag vintage aux encres Distress","category":"Tags","season":"automne","level":"Découverte","duration":"55 à 70 min","image":"tag-vintage-final.webp","coverPhoto":"tag-vintage-final.webp","tutorial":true,"description":"Un tag de 7 × 12 cm aux couleurs de l’automne, avec un fond patiné à la Distress Ink, des effets d’eau et une empreinte botanique précise.","courseIds":["tamponnage","encres","degrades"],"materials":["Papier cartonné ivoire ou manille 200 à 300 g/m² (au moins 7 × 12 cm)","Règle, crayon, massicot ou ciseaux, perforatrice Ø 5 mm","Encre Distress Ink Antique Linen ou Scattered Straw (fond clair)","Encre Distress Ink Vintage Photo ou Tea Dye (patine brune)","Encre Distress Ink Walnut Stain (bords, facultatif)","Outil applicateur mousse ou brosse à encrer","Mini-vaporisateur d’eau, essuie-tout et surface protégée","Tampon botanique et encre Archival noire ou sépia, résistant à l’eau une fois sec","Ficelle de lin, ruban ou œillet de décoration (facultatif)"],"preparation":"Commencer par protéger la table. Effectuer un test des encres sur une chute du même papier. On peut réaliser le projet avec une marque différente si les encres réagissent bien à l’eau.","pattern":"./assets/patron-tag-7x12cm.pdf","patternDescription":"Patron PDF A4 avec deux tags de 70 × 120 mm, coins coupés à 10 mm, trou Ø 5 mm placé à 10 mm du bord supérieur et trait de contrôle de 5 cm. Imprimer à taille réelle (100 %).","steps":[{"title":"Rassembler le matériel","duration":"5 min","body":"Préparer trois coussinets dans une gamme claire, ocre et brune, un applicateur, du papier ivoire, une perforatrice, une branche botanique et un peu de ficelle. Réserver une chute pour les essais.","tip":"Deux encres suffisent pour une première version : une teinte claire et un brun de patine.","mistake":"Commencer directement sur la pièce finale sans tester la réaction du papier à l’eau.","photo":"tag-photo-01.webp","caption":"Matériel disposé avant de commencer : trois encres, applicateur, bloc et papier."},{"title":"Tracer le patron 7 × 12 cm","duration":"5 min","body":"À l’aide du patron imprimé à 100 %, tracer un rectangle de 70 mm de large sur 120 mm de haut. Sur les deux coins supérieurs, marquer 10 mm depuis le haut et 10 mm depuis chaque côté pour obtenir deux biseaux symétriques.","tip":"Contrôler le trait de 5 cm sur le PDF avec une règle. Si ce trait est plus court, désactiver « Ajuster à la page ».","mistake":"Confondre 7 × 12 cm avec un format de 7 × 12 pouces ou imprimer le patron à échelle réduite.","photo":"tag-photo-02.webp","caption":"Tracer les biseaux des coins supérieurs avec une règle."},{"title":"Découper les coins","duration":"4 min","body":"Découper d’abord le rectangle, puis les deux segments obliques des coins supérieurs. Garder un bord propre : la patine des encres viendra ensuite assouplir visuellement la découpe.","tip":"Une paire de ciseaux à lames fines suffit ; pour une série, utiliser un massicot et un gabarit.","mistake":"Couper deux coins de tailles différentes : le ruban paraîtra décentré.","photo":"tag-photo-03.webp","caption":"Découpe précise de l’angle supérieur suivant les repères."},{"title":"Percer le trou","duration":"3 min","body":"Marquer un point à 35 mm du bord gauche et 10 mm sous le bord supérieur du tag. Perforer un trou de 5 mm de diamètre, centré sur ce repère. Poser éventuellement un œillet en fin de travail.","tip":"Perforer avant l’encrage évite de plier ou d’abîmer le fond fini.","mistake":"Percer trop près du bord : le tag risque de se déchirer quand on noue la ficelle.","photo":"tag-photo-04.webp","caption":"Perforation au centre de la bordure supérieure."},{"title":"Poser la teinte claire","duration":"8 min","body":"Charger très légèrement la mousse avec Antique Linen (ou une autre Distress claire). Commencer le geste circulaire sur un brouillon puis entrer progressivement sur le papier. Garder le centre plus lumineux que les bords.","tip":"Multiplier les passages très légers plutôt qu’une couche forte.","mistake":"Appuyer dès le premier contact avec une mousse saturée : des cercles foncés peuvent rester visibles.","photo":"tag-photo-05.webp","caption":"Application de la première couche claire au centre et près des bords."},{"title":"Patiner les bords","duration":"8 min","body":"Ajouter Vintage Photo ou Tea Dye en mouvements circulaires légers depuis l’extérieur vers l’intérieur du tag. Insister doucement aux angles et laisser quelques zones ivoire visibles. Avec Walnut Stain, accentuer seulement l’extrême bord si souhaité.","tip":"Un petit dégradé progressif est souvent plus convaincant qu’un contour brun uniforme et épais.","mistake":"Poser trop d’encre sombre partout : le tag perd sa lumière et les tampons sont moins lisibles.","photo":"tag-photo-06.webp","caption":"Patine brune progressive appliquée sur le périmètre."},{"title":"Créer des traces d’eau","duration":"8 min + séchage","body":"Sur les encres bien appliquées, laisser tomber quelques gouttelettes d’eau ou brumiser très légèrement. Patienter environ 5 à 10 secondes puis tamponner l’excès avec un essuie-tout. Laisser sécher complètement avant le tamponnage final.","tip":"Tester d’abord sur une chute : plus le papier est poreux, plus les gouttes diffusent.","mistake":"Tremper le tag ou le manipuler encore humide : le papier peut gondoler et le motif final baver.","photo":"tag-photo-07.webp","caption":"Effet de gouttelettes d’eau sur le fond encré, avant séchage."},{"title":"Tamponner le motif botanique","duration":"8 min","body":"Sur le tag sec, encrer un tampon botanique avec une Archival noire ou sépia. Imprimer verticalement sans mouvement latéral, en conservant le haut dégagé pour le trou. Ajouter éventuellement un petit motif d’écriture, de manière discrète.","tip":"Une encre Archival sèche résiste à l’eau, mais ici elle intervient à la toute fin, lorsque le fond est déjà bien sec.","mistake":"Tamponner tant que le fond est humide ou trop près du trou, ce qui brouille la composition.","photo":"tag-photo-08.webp","caption":"Impression nette du tampon botanique sur le tag sec."},{"title":"Fixer la ficelle et photographier","duration":"6 min","body":"Passer une ficelle de lin ou un ruban étroit dans le trou. Nouer sans forcer. Facultativement, ajouter un petit morceau de papier imprimé, une étiquette ou un œillet. Photographier le tag terminé, puis enregistrer ta version dans Mon carnet.","tip":"Une zone vide et un seul motif principal donnent souvent davantage de caractère qu’une accumulation d’embellissements.","mistake":"Ajouter trop d’éléments en relief avant que les encres ou la colle aient séché.","photo":"tag-photo-09.webp","caption":"Résultat final : tag patiné, motif botanique et ficelle de lin."}],"mistakes":["Un départ d’encrage trop appuyé laisse des marques de mousse : commencer sur un brouillon.","Une patine trop foncée étouffe les détails. Garder un centre plus clair.","La réaction à l’eau dépend du papier et de la quantité d’encre : tester avant.","Pour une empreinte nette, tamponner uniquement quand le fond est sec."],"variants":["Version douce : Antique Linen + Tea Dye, sans Walnut Stain.","Version sous-bois : Peeled Paint + Vintage Photo et tampon feuille.","Version hiver : Weathered Wood + Hickory Smoke, avec ruban bleu gris."],"sources":[{"label":"Ranger Ink : Distress Imagination Tag (fond et gouttelettes)","url":"https://rangerink.com/blogs/projects/distress-imagination-tag"},{"label":"Ranger Ink : Distress Ink et Oxide, questions fréquentes","url":"https://rangerink.com/pages/faqs"},{"label":"Ranger Ink : Distressed Tag Journal","url":"https://rangerink.com/blogs/projects/distressed-tag-journal-by-tim-holtz"}]},
     {id:'feuilles-du-temps',title:'Les feuilles du temps',category:'Mini-albums',season:'automne',level:'Découverte +',duration:'3 à 4 h',image:'hero-autumn',featured:true,description:'Un carnet botanique pour conserver les souvenirs de promenades et les couleurs de l’automne.',courseIds:['tamponnage','degrades','album-accordeon'],materials:['Papiers kraft et ivoire','Photographies','Encre brun et orange','Tampons feuilles','Ruban'],steps:['Préparer les pages et la reliure.','Créer trois fonds automnaux à l’encre.','Placer les photographies et les pochettes.','Ajouter les tampons, titres et rubans.']},
     {id:'carte-sauge',title:'Carte botanique sauge & or',category:'Carterie',season:'printemps',level:'Découverte +',duration:'1 h',image:'card',description:'Une carte florale élégante avec touches dorées.',courseIds:['carte-botanique','embossage'],materials:['Carton de carte','Tampons floraux','Encre verte','Poudre dorée'],steps:['Marquer le pli central.','Créer le fond encré.','Tamponner les motifs.','Embosser l’inscription et assembler.']},
     {id:'album-voyage',title:'Mon carnet de voyage',category:'Mini-albums',season:'ete',level:'Intermédiaire',duration:'2 à 3 h',image:'hero-summer',description:'Pochettes, tickets et petites photos composent un carnet nomade.',courseIds:['album-accordeon','junk-journal'],materials:['Papier bleu et kraft','Photographies et copies de tickets','Règle et plioir','Colle'],steps:['Choisir le format du carnet.','Assembler les pages et pochettes.','Positionner les photographies.','Décorer avec tampons et écritures.']},
     {id:'journal-jardin',title:'Le jardin oublié',category:'Junk journal',season:'printemps',level:'Découverte +',duration:'1 h 15',image:'journal',description:'Une double page composée de collages anciens et de textures botaniques.',courseIds:['junk-journal'],materials:['Carnet A5','Papiers anciens ou reproductions','Gesso','Tampons et encres'],steps:['Composer à blanc.','Coller les papiers.','Appliquer la texture.','Tamponner et écrire.']},
-    {id:'tags-hiver',title:'Tags givrés',category:'Tags',season:'hiver',level:'Découverte',duration:'1 h',image:'hero-winter',description:'Étiquettes-cadeaux en gris bleuté, blanc et touches métalliques.',courseIds:['degrades','embossage'],materials:['Tags ivoire','Encres bleu et gris','Poudre blanche','Rubans'],steps:['Découper trois tags.','Créer les fonds froids.','Embosser les motifs.','Ajouter rubans et messages.']},
+    {
+  "id": "tags-hiver",
+  "title": "Tags givrés",
+  "category": "Tags",
+  "season": "hiver",
+  "level": "Découverte +",
+  "duration": "1 h 20 + séchage",
+  "image": "tags-givres-final.svg",
+  "coverPhoto": "tags-givres-final.svg",
+  "tutorial": true,
+  "tutorialLabel": "TAGS D’HIVER · EFFETS GIVRÉS",
+  "description": "Trois tags assortis de 7 × 12 cm aux bleus fumés, flocons embossés et neige en relief. Un atelier pour découvrir les effets d’eau, le tamponnage et les superpositions de saison.",
+  "courseIds": [
+    "degrades",
+    "tamponnage",
+    "embossage",
+    "pochoirs"
+  ],
+  "materials": [
+    "Trois feuilles ivoire ou blanches 200 à 300 g/m², de 7 × 12 cm minimum",
+    "Règle, massicot ou ciseaux, perforatrice Ø 5 mm et patron de tag",
+    "Encres Distress Ink ou Oxide : bleu clair, bleu gris et gris froid (ou couleurs équivalentes)",
+    "Trois brosses ou mousses d’estompage propres, brouillon et papier absorbant",
+    "Petite pipette ou vaporisateur pour les effets à l’eau",
+    "Tampons sapin, branche ou feuillage et encre de contours appropriée",
+    "Tampons flocons, encre lente d’embossage, poudre blanche à embosser et sachet antistatique",
+    "Pistolet d’embossage spécial loisirs créatifs, surface résistante à la chaleur",
+    "Pâte de texture blanche ou Grit-Paste Snowfall, pochoir optionnel et spatule",
+    "Petits morceaux de papier clair pour étiquettes et trois rubans ou ficelles"
+  ],
+  "preparation": "Commencer avec trois feuilles de même grammage. Imprimer le patron PDF à 100 % et vérifier son trait de contrôle de 5 cm. Protéger la table contre l’eau, la chaleur et la pâte. Séparer l’étape d’embossage à chaud de l’étape de pâte de texture, puis laisser bien sécher entre les opérations.",
+  "tipsIntro": "Pour éviter tout problème de matière : travailler sur le papier complètement sec avant l’embossage à chaud, puis appliquer la texture neigeuse une fois le tag refroidi. La pâte sèche à l’air selon les instructions du fabricant.",
+  "pattern": "./assets/patron-tag-7x12cm.pdf",
+  "patternDescription": "Patron PDF A4 à taille réelle : tag de 70 × 120 mm, biseaux de 10 mm, trou Ø 5 mm centré à 10 mm du bord supérieur. Réutiliser trois fois le même gabarit. Fiche de réalisation illustrée séparée.",
+  "guide": "./assets/fiche-tags-givres.svg",
+  "patternPreview": "tags-givres-02.svg",
+  "visualNote": "Illustrations originales de montage, non photographies d’essais réels. Les gestes et dimensions écrites permettent de reproduire la création avec ton propre matériel.",
+  "steps": [
+    {
+      "title": "Préparer la table et les couleurs",
+      "duration": "8 min",
+      "body": "Rassembler les trois papiers pour tags, un applicateur propre par couleur, des encres froides (bleu, gris et une teinte très claire), un tampon de sapin ou de branche, un pochoir à neige et des rubans. Protéger la table et réserver trois chutes du même papier pour tester l’eau, la poudre et la pâte.",
+      "tip": "Choisir un bleu froid et un gris doux, puis conserver le troisième tag presque ivoire pour créer un ensemble harmonieux.",
+      "mistake": "Mélanger des applicateurs déjà chargés d’encre brune ou orange donne des fonds ternes.",
+      "caption": "Préparation de trois papiers, des encres froides et des outils.",
+      "photo": "tags-givres-01.svg"
+    },
+    {
+      "title": "Découper trois tags 7 × 12 cm",
+      "duration": "10 min",
+      "body": "Découper trois rectangles de 70 × 120 mm. Retirer sur les coins supérieurs deux triangles de 10 × 10 mm pour obtenir les biseaux. Marquer le trou à 35 mm du côté gauche et 10 mm sous le bord supérieur, puis perforer à Ø 5 mm. Vérifier le trait de 50 mm du patron PDF imprimé à 100 %.",
+      "tip": "Perforer dès le départ : on évite de tordre ensuite un tag dont la pâte de texture est sèche et fragile.",
+      "mistake": "Une perforation trop proche du bord peut se déchirer une fois la ficelle nouée.",
+      "caption": "Trois tags identiques, biseaux et trous percés aux bonnes dimensions.",
+      "photo": "tags-givres-02.svg"
+    },
+    {
+      "title": "Créer les fonds glacés",
+      "duration": "12 min",
+      "body": "Sur le premier tag, estomper Distress Ink ou Oxide dans des tons comme Tumbled Glass et Stormy Sky ; sur le deuxième, essayer un gris bleuté ; sur le troisième, travailler très peu d’encre pour conserver l’ivoire. Partir du brouillon puis entrer sur le papier en mouvements légers.",
+      "tip": "Garder le centre plus clair que les contours : les motifs blancs ressortent sans transformer le tag en bloc bleu.",
+      "mistake": "Appliquer beaucoup de couleur d’un seul coup peut former une tache foncée et difficile à adoucir.",
+      "caption": "Trois fonds froids dont la couleur devient légèrement plus soutenue vers les bords.",
+      "photo": "tags-givres-03.svg"
+    },
+    {
+      "title": "Faire apparaître les traces d’eau",
+      "duration": "6 min + séchage",
+      "body": "Déposer quelques fines gouttelettes d’eau sur les fonds réactifs. Attendre quelques secondes, puis éponger verticalement sans frotter. Laisser sécher complètement à plat avant d’utiliser les tampons ou les poudres.",
+      "tip": "Trois ou quatre gouttelettes sur une petite zone suffisent. Le comportement change avec le grammage et la formulation de l’encre.",
+      "mistake": "Ne pas enchaîner l’embossage à chaud sur un papier humide : l’humidité favorise l’adhésion indésirable de poudre et les déformations.",
+      "caption": "Les fonds s’éclaircissent par petites touches après les gouttelettes d’eau.",
+      "photo": "tags-givres-04.svg"
+    },
+    {
+      "title": "Tamponner les sapins et les branches",
+      "duration": "9 min",
+      "body": "Une fois les trois tags entièrement secs, placer une silhouette de sapin sur le premier, un bouquet de branches sur le deuxième et un motif discret sur le troisième. Utiliser une encre de contours appropriée, comme Archival Ink après séchage, et garder libre la zone autour du trou.",
+      "tip": "Pour une composition équilibrée, placer le motif principal dans le tiers inférieur ou central, et varier la taille sur chaque tag.",
+      "mistake": "Tamponner sur une pâte de texture non sèche produit des empreintes incomplètes ou déformées.",
+      "caption": "Silhouettes végétales sur les fonds d’hiver secs.",
+      "photo": "tags-givres-05.svg"
+    },
+    {
+      "title": "Embosser des flocons blancs",
+      "duration": "10 min",
+      "body": "Passer un sachet antistatique sur le tag parfaitement sec. Tamponner un flocon avec une encre lente spéciale embossage, verser une poudre blanche à embosser, retirer l’excédent et chauffer avec un pistolet d’embossage adapté jusqu’à fusion. Garder les mains éloignées du flux chaud et travailler sur un support résistant à la chaleur.",
+      "tip": "Une poudre fine permet de conserver les détails d’un petit flocon. Arrêter de chauffer lorsque la poudre fond et devient régulière.",
+      "mistake": "Un sèche-cheveux n’est pas un substitut au pistolet d’embossage ; il souffle la poudre avant sa fusion.",
+      "caption": "Flocons blancs en relief déposés sur les tags par embossage à chaud.",
+      "photo": "tags-givres-06.svg"
+    },
+    {
+      "title": "Ajouter la neige en texture",
+      "duration": "10 min + séchage",
+      "body": "Sur les tags froids et entièrement refroidis, appliquer à la spatule une fine couche de pâte neigeuse ou de pâte de texture blanche au bord inférieur, puis soulever délicatement le pochoir si utilisé. Ranger permet notamment des textures de neige comme Grit-Paste Snowfall. Nettoyer immédiatement la spatule et le pochoir, puis laisser sécher à l’air selon le fabricant.",
+      "tip": "Limiter la texture aux bords et à quelques petites zones pour préserver le motif tamponné et la souplesse du papier.",
+      "mistake": "Ne pas utiliser le pistolet à embosser pour forcer le séchage d’une pâte, sauf indication expresse de son fabricant.",
+      "caption": "Neige en relief créée sur les bordures basses et autour des flocons.",
+      "photo": "tags-givres-07.svg"
+    },
+    {
+      "title": "Placer les étiquettes et ornements",
+      "duration": "8 min",
+      "body": "Découper trois petits cartouches de 5 × 1,5 cm dans un papier clair ou argenté. Écrire un mot d’hiver différent sur chacun, puis fixer ces cartouches sur une zone calme. Ajouter éventuellement un petit rameau découpé ou une étoile légère en papier.",
+      "tip": "Répéter une seule touche de couleur sur les trois tags, par exemple argent ou blanc, pour relier l’ensemble.",
+      "mistake": "Trop d’ornements et de colle risquent d’écraser les motifs et de masquer les effets givrés.",
+      "caption": "Les tags reçoivent une petite étiquette assortie et des finitions discrètes.",
+      "photo": "tags-givres-08.svg"
+    },
+    {
+      "title": "Nouer les rubans et documenter",
+      "duration": "7 min",
+      "body": "Passer une ficelle naturelle ou un ruban gris bleuté dans chaque trou. Nouer sans tirer sur le papier encore souple. Photographier les trois tags ensemble et ajouter ta réalisation à Mon carnet, avec le nom des encres et ton expérience de l’embossage et de la pâte.",
+      "tip": "Conserver quelques chutes encrées avec les tags : elles serviront de nuancier pour de futures cartes d’hiver.",
+      "mistake": "Éviter de refermer les tags dans une pochette tant que la pâte de texture n’est pas parfaitement sèche.",
+      "caption": "Trois tags givrés terminés, avec rubans, sapins et neige en relief.",
+      "photo": "tags-givres-09.svg"
+    }
+  ],
+  "layerGuide": [
+    "1. Trois formes de tag découpées et perforées, avant toute couleur.",
+    "2. Encres d’hiver estompées puis révélées par l’eau, avec séchage complet.",
+    "3. Tampons de sapins et de branches sur les fonds secs.",
+    "4. Flocons embossés à chaud et refroidis sur une surface adaptée.",
+    "5. Pâte neigeuse ou texture blanche appliquée ensuite, puis séchée à l’air.",
+    "6. Étiquettes, petits ornements et rubans fixés à la fin."
+  ],
+  "mistakes": [
+    "Travailler sur une base encore humide peut faire coller l’embossage hors des flocons.",
+    "Une chaleur excessive risque de brûler le papier ou ternir la poudre ; utiliser uniquement l’outil prévu.",
+    "La pâte de texture ne doit pas être chauffée comme une poudre à embosser sans indication du fabricant.",
+    "Les trois tags doivent être secs avant de glisser dans une pochette ou d’être offerts."
+  ],
+  "variants": [
+    "Nuit polaire : bleu marine, argent et sapins blancs.",
+    "Hiver doux : ivoire, gris perle et flocons embossés à peine nacrés.",
+    "Forêt enneigée : vert sapin, bleu ardoise et petites branches embossées."
+  ],
+  "sources": [
+    {
+      "label": "Ranger : comment réussir l’embossage à chaud",
+      "url": "https://rangerink.com/blogs/videos/how-to-heat-emboss"
+    },
+    {
+      "label": "Ranger : Grit-Paste Snowfall (pâte neige)",
+      "url": "https://rangerink.com/products/tim-holtz-distress-grit-paste-snowfall"
+    },
+    {
+      "label": "Ranger : produits Distress et encres",
+      "url": "https://rangerink.com/collections/tim-holtz-distress"
+    }
+  ]
+},
     {id:'page-photo',title:'Souvenirs en images',category:'Pages photo',season:'toutes',level:'Découverte +',duration:'1 h 30',image:'photo',description:'Une page avec photo principale, titre, légende et superpositions discrètes.',courseIds:['tamponnage','degrades'],materials:['Papier 30 × 30 cm','Photo imprimée','Deux papiers assortis','Étiquettes'],steps:['Choisir un point focal.','Matrer la photo.','Placer les papiers.','Ajouter une légende et deux embellissements.']},
     {id:'cadeaux-papier',title:'Pochettes de petits trésors',category:'Objets en papier',season:'toutes',level:'Découverte +',duration:'1 h',image:'gift',description:'De petites pochettes décoratives pour mots doux et souvenirs.',courseIds:['tamponnage','pochoirs'],materials:['Papier cartonné','Plioir','Tampons','Ruban ou ficelle'],steps:['Découper un gabarit.','Plier et coller.','Tamponner un motif.','Installer la fermeture.']},
   ],
