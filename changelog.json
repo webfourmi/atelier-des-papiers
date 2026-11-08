@@ -1,6 +1,47 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "releases": [
+    {
+      "version": "0.4.0",
+      "date": "2026-11-08",
+      "title": "Deux encres, deux tags",
+      "intro": "Un nouveau laboratoire de papier pour comparer les encres Distress Ink et Distress Oxide et enrichir le carnet de créations.",
+      "sections": [
+        {
+          "title": "Nouveau cours n° 9 : Distress Ink ou Oxide ?",
+          "items": [
+            "Cours complet en neuf étapes, du choix du papier à la finition des deux tags botaniques.",
+            "Quatorze vues illustratives, dont quatre gros plans sur les gestes importants, agrandissables au toucher.",
+            "Tableau comparatif des formules, transparence, superpositions et réaction à l’eau.",
+            "Explications concrètes, erreurs fréquentes, conseils et liens vers la documentation officielle Ranger."
+          ]
+        },
+        {
+          "title": "Nouveau projet : Duo de tags",
+          "items": [
+            "Deux tags de 7 × 12 cm réalisés en parallèle avec la même teinte pour observer les différences de rendu.",
+            "Fiche imprimable PDF de deux pages avec patron à taille réelle et trait témoin de 50 mm.",
+            "Étapes à cocher, favoris et possibilité d’ajouter les photographies de son propre essai au carnet."
+          ]
+        },
+        {
+          "title": "Confort d'utilisation",
+          "items": [
+            "Nouveaux agrandissements photographiques directement dans les cours, et non plus uniquement dans les projets.",
+            "Recherche dans le carnet personnel par titre, type de création et notes.",
+            "Filtre du carnet par avancement : en cours, terminé ou à essayer.",
+            "Nouvelle mise en avant de l’atelier Ink/Oxide sur la page d’accueil."
+          ]
+        },
+        {
+          "title": "Sauvegardes et maintenance",
+          "items": [
+            "Données personnelles, photographies, notes et favoris conservés lors de cette mise à jour.",
+            "Ressources du nouveau cours disponibles hors connexion après installation de la mise à jour."
+          ]
+        }
+      ]
+    },
     {
       "version": "0.3.0",
       "date": "2026-11-08",

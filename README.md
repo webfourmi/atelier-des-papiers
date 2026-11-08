@@ -2,10 +2,10 @@
 
 Une première version **PWA statique** de l'application personnelle de scrapbooking, conçue pour mobile et ordinateur.
 
-## Contenu (version 0.3.0)
+## Contenu (version 0.4.0)
 
 - Accueil avec thème graphique au choix : printemps, été, automne, hiver.
-- Huit cours progressifs avec matériel, conseils, schémas pédagogiques, erreurs à éviter, exercices, progression mémorisée et notes personnelles.
+- Neuf cours progressifs avec matériel, conseils, schémas pédagogiques, erreurs à éviter, exercices, progression mémorisée et notes personnelles.
 - Projets créatifs saisonniers : tags vintage, cartes, pages photo, mini-albums, junk journal, objets en papier.
 - Galerie d'inspiration et premiers sketches.
 - Carnet personnel : fiches éditables, jusqu'à cinq photographies par fiche, états et notes, suppression après confirmation.
@@ -14,6 +14,19 @@ Une première version **PWA statique** de l'application personnelle de scrapbook
 - PWA hors connexion après une première visite en ligne.
 - Icône et bouton d'installation sur Android, iOS, Chrome et Edge lorsque le navigateur le permet.
 - Vérification de version depuis Mon atelier, notification de mise à jour, installation après confirmation et journal détaillé affiché une seule fois par version.
+
+## Nouveautés 0.4.0 : l’atelier des encres
+
+- **Cours 09 : Distress Ink ou Oxide ?** Un essai sur deux tags identiques avec neuf étapes détaillées, quatorze vues (dont des recadrages rapprochés), conseils et erreurs fréquentes.
+- **Projet guidé : Duo de tags Ink & Oxide**, disponible dans la catégorie Tags, avec progression et carnet personnel.
+- **Fiche PDF A4** : comparatif des deux encres, déroulement et gabarit imprimable pour deux tags vierges de 7 × 12 cm avec trait témoin de 50 mm.
+- **Photos agrandissables** dans les cours qui en disposent ; illustrations numériques clairement identifiées, non présentées comme des photographies d’expériences réelles.
+- **Recherche dans le carnet** par titre, type de projet et notes, et filtre par statut de réalisation.
+- **Accueil enrichi**, avec accès direct au nouveau cours et aux tags comparatifs.
+- Le contenu de la version est détaillé dans `changelog.json`. La mise à jour est livrée par le service worker avec activation à la demande.
+- Les données personnelles conservées dans IndexedDB / localStorage **ne sont pas modifiées** par cette livraison.
+
+Références techniques : [Ranger Ink, FAQ](https://rangerink.com/pages/faqs) et [Ranger Ink, gamme Distress](https://rangerink.com/collections/tim-holtz-distress). Le tutoriel n’est pas affilié aux marques citées.
 
 ## Nouveauté 0.3.0 : installation et suivi des mises à jour
 

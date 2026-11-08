@@ -50,3 +50,26 @@ body[data-season="hiver"]{--primary:#687b89;--primary-strong:#465969;--primary-l
 .pwa-install-guide ol{padding-left:20px;line-height:1.75}
 @media(max-width:800px){.pwa-trigger{padding:8px 10px;font-size:.75rem}.pwa-update-banner{align-items:stretch}.pwa-update-banner .btn{width:100%}}
 @media(max-width:380px){.pwa-trigger .pwa-install-text{display:none}.pwa-trigger{width:39px;padding:8px}}
+
+/* V0.4 • Atelier Ink vs Oxide : photographie pédagogique, comparatif et filtres */
+.atelier-feature-banner{display:grid;grid-template-columns:minmax(0,1fr) minmax(235px,.68fr);margin:28px 0 22px;background:var(--card);border:1px solid var(--border);border-radius:19px;box-shadow:var(--shadow);overflow:hidden}
+.atelier-feature-banner>div{padding:clamp(22px,3vw,34px);display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.atelier-feature-banner h2{font:normal clamp(1.6rem,3vw,2.45rem)/1.15 var(--font-serif);margin:10px 0 8px}
+.atelier-feature-banner p{color:var(--muted);max-width:520px;margin:0 0 17px}
+.atelier-feature-banner>img{width:100%;height:100%;max-height:365px;object-fit:cover;aspect-ratio:1.35}
+.atelier-feature-actions{display:flex;gap:9px;flex-wrap:wrap}
+.course-photo{cursor:zoom-in}
+.course-photo img{display:block;width:100%;height:auto;aspect-ratio:1.2;object-fit:cover;background:#ede0cf}
+.course-photo:focus-visible,.tag-stage-photo:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.compare-scroll{overflow-x:auto;max-width:100%;margin:16px 0 12px}
+.compare-table{width:100%;min-width:480px;border-collapse:collapse;font-size:.84rem;line-height:1.5}
+.compare-table th,.compare-table td{border-bottom:1px solid var(--border);padding:12px 13px;text-align:left;vertical-align:top}
+.compare-table thead th{background:var(--primary-light);font-weight:700;color:var(--primary-strong)}
+.compare-table tbody th{font-weight:700;color:var(--primary);width:25%}
+.compare-table tbody tr:nth-child(even){background:#f5eee6}
+.journal-filterbar{margin-bottom:0;gap:10px}
+.journal-filterbar .searchbox{max-width:460px}
+.journal-filterbar #journal-match-count{white-space:nowrap}
+.entry-card[hidden]{display:none!important}
+@media(max-width:950px){.atelier-feature-banner{grid-template-columns:1fr 43%}.atelier-feature-banner>img{max-height:none}}
+@media(max-width:680px){.atelier-feature-banner{grid-template-columns:1fr}.atelier-feature-banner>img{grid-row:1;max-height:245px;aspect-ratio:1.8}.atelier-feature-banner>div{grid-row:2}.atelier-feature-actions .btn{width:100%;justify-content:center}.journal-filterbar .searchbox{min-width:100%;max-width:none}.journal-filterbar .filterselect{flex:1}}

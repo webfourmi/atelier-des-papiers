@@ -1,5 +1,5 @@
 window.ATELIER_DATA = {
-  version:'0.3.0',
+  version:'0.4.0',
   families:[
     {id:'tampons',label:'Tampons & impression',icon:'stamp'},
     {id:'encres',label:'Encres & fonds',icon:'droplets'},
@@ -65,3 +65,330 @@ window.ATELIER_DATA = {
     {title:'Le charme du vintage',subtitle:'Collages et matières',image:'journal',filter:'Junk journal'}
   ]
 };
+
+// L'Atelier des Papiers • extension pédagogique V0.4.0
+window.ATELIER_DATA.courses.push({
+  "id": "distress-ink-oxide",
+  "number": 9,
+  "title": "Distress Ink ou Oxide ?",
+  "subtitle": "Deux encres, deux tags : observer la vraie différence",
+  "family": "encres",
+  "level": "Découverte +",
+  "duration": "1 h 10",
+  "image": "duo-ink-oxide-cover.webp",
+  "description": "Un atelier comparatif pour comprendre les rendus, la transparence, l’oxydation et la réaction à l’eau des encres de Tim Holtz. Tu réaliseras deux tags identiques avec neuf gestes photographiés.",
+  "outcome": "Deux tags botaniques de 7 × 12 cm, réalisés avec le même papier et la même couleur pour comparer Distress Ink et Distress Oxide.",
+  "materials": [
+    "Deux tags en papier ivoire lisse 200 à 250 g/m², 7 × 12 cm chacun",
+    "Une Distress Ink et une Distress Oxide de la même couleur, si possible",
+    "Deux mousses ou brosses d’estompage distinctes",
+    "Règle, ciseaux ou massicot, perforatrice de 5 mm",
+    "Brumisateur ou pipette, eau propre et papier absorbant",
+    "Tampon botanique, bloc et encre permanente adaptée au papier (Archival une fois sèche)",
+    "Ficelle ou ruban, éventuellement deux œillets",
+    "Patron PDF imprimé à 100 % et chutes pour essais"
+  ],
+  "preparation": "Prévoir une surface protégée, un papier de brouillon et une bonne lumière. Étiqueter les deux échantillons au dos. Si tu possèdes une seule des deux gammes, réalise l’expérience avec cette encre et consulte la comparaison pour préparer un futur essai.",
+  "steps": [
+    {
+      "title": "Découper deux tags identiques",
+      "time": "7 min",
+      "body": "Découpe deux tags de 70 × 120 mm dans la même feuille de papier ivoire lisse (200 à 250 g/m²). Coupe les angles supérieurs sur 10 mm et perce un trou central de 5 mm, à 10 mm du bord supérieur. Utilise le patron imprimable à 100 % ; mesure le trait témoin de 50 mm.",
+      "tip": "Conserver les deux morceaux provenant de la même feuille limite les variations de papier dans la comparaison.",
+      "mistake": "Des papiers différents peuvent modifier la diffusion et fausser l’observation.",
+      "views": [
+        "Les deux tags vierges et le matériel"
+      ],
+      "photos": [
+        "duo-ink-oxide-01.webp"
+      ]
+    },
+    {
+      "title": "Préparer un essai comparable",
+      "time": "5 min",
+      "body": "Au dos, inscris « Ink » sur le premier tag et « Oxide » sur le second. Choisis une teinte disponible dans les deux gammes, idéalement la même référence colorée. Prépare un applicateur distinct pour chaque encre, un brouillon et un petit récipient d’eau.",
+      "tip": "Pour comparer honnêtement, ne change ni le papier, ni le geste, ni la couleur choisie. Si tu ne possèdes qu’une gamme, réalise simplement son essai.",
+      "mistake": "Deux couleurs très différentes ne permettent pas de comparer leurs rendus de façon fiable.",
+      "views": [
+        "Identification des échantillons au dos"
+      ],
+      "photos": [
+        "duo-ink-oxide-02.webp"
+      ]
+    },
+    {
+      "title": "Estomper la Distress Ink",
+      "time": "8 min",
+      "body": "Charge légèrement l’applicateur avec la Distress Ink, encre à colorants réactive à l’eau. Commence les mouvements circulaires sur le brouillon, puis entre doucement sur le premier tag. Construis le fond en couches fines, en laissant le centre plus clair.",
+      "tip": "L’Ink laisse souvent transparaître davantage le support, ce qui crée une patine lumineuse. Essaie des bords un peu plus soutenus.",
+      "mistake": "Commencer avec une mousse saturée directement au milieu peut laisser une tache ronde difficile à fondre.",
+      "views": [
+        "Pose de la Distress Ink en mouvements circulaires",
+        "Vue rapprochée du dégradé clair"
+      ],
+      "photos": [
+        "duo-ink-oxide-03.webp",
+        "duo-ink-oxide-detail-03.webp"
+      ]
+    },
+    {
+      "title": "Estomper la Distress Oxide",
+      "time": "8 min",
+      "body": "Avec un applicateur propre, applique la Distress Oxide sur le second tag en répétant exactement le même geste. Sa formule associant colorants et pigments peut donner un rendu plus doux et crayeux. Ne cherche pas à reproduire une opacité artificielle en ajoutant beaucoup plus d’encre.",
+      "tip": "Observe particulièrement le centre du tag : la différence de transparence apparaît souvent mieux sur une zone claire.",
+      "mistake": "Un applicateur déjà chargé de Distress Ink contaminerait le résultat de l’Oxide.",
+      "views": [
+        "Application de Distress Oxide sur le second tag",
+        "Macro du fond plus doux et opaque"
+      ],
+      "photos": [
+        "duo-ink-oxide-04.webp",
+        "duo-ink-oxide-detail-04.webp"
+      ]
+    },
+    {
+      "title": "Comparer après séchage",
+      "time": "5 min",
+      "body": "Laisse sécher les deux fonds quelques minutes, puis pose-les côte à côte sous la même lumière. Note lequel laisse davantage apparaître le papier, lequel paraît plus mat, et si les bords sont plus ou moins marqués.",
+      "tip": "Photographie les tags ensemble, de préférence en lumière du jour indirecte, en gardant une petite carte blanche comme référence de couleur.",
+      "mistake": "Comparer un fond encore humide avec un fond sec risque de donner de fausses impressions.",
+      "views": [
+        "Observation des deux rendus côte à côte"
+      ],
+      "photos": [
+        "duo-ink-oxide-05.webp"
+      ]
+    },
+    {
+      "title": "Tester la réaction à l’eau",
+      "time": "6 min",
+      "body": "Sur une petite zone de chaque tag, fais tomber trois gouttelettes d’eau de taille comparable. Laisse agir quelques secondes sans frotter. Les deux encres sont réactives à l’eau, mais la présence de pigments dans l’Oxide peut produire un effet oxydé caractéristique.",
+      "tip": "Ne mouille pas toute la feuille : quelques gouttes suffisent pour observer le résultat sans gondoler excessivement le papier.",
+      "mistake": "Le comportement dépend aussi du papier, de la quantité d’encre et du temps de contact : il n’existe pas une réaction identique à chaque essai.",
+      "views": [
+        "Trois gouttelettes par tag",
+        "Gros plan de la réaction de surface"
+      ],
+      "photos": [
+        "duo-ink-oxide-06.webp",
+        "duo-ink-oxide-detail-06.webp"
+      ]
+    },
+    {
+      "title": "Éponger et laisser sécher",
+      "time": "8 min + séchage",
+      "body": "Dépose doucement un papier absorbant sur les gouttes, sans tirer ni frotter. Retire-le verticalement. Compare les zones éclaircies et les auréoles obtenues, puis laisse les tags sécher complètement avant tout tamponnage.",
+      "tip": "Sur un fond encore humide, on peut observer une migration de pigments ou de colorants ; attends le séchage pour juger la couleur finale.",
+      "mistake": "Frotter l’essuie-tout provoque des traînées qui masquent le test de gouttelettes.",
+      "views": [
+        "Épongeage délicat des deux fonds"
+      ],
+      "photos": [
+        "duo-ink-oxide-07.webp"
+      ]
+    },
+    {
+      "title": "Tamponner le même motif",
+      "time": "8 min",
+      "body": "Une fois les tags secs, imprime le même tampon botanique avec une encre permanente résistante à l’eau après séchage, par exemple Archival Ink. Utilise le même positionnement et la même pression sur les deux tags afin de conserver une comparaison utile.",
+      "tip": "Teste d’abord l’encre de contour sur une chute et veille à ce que le support soit sec. Le motif noir apporte un point focal commun.",
+      "mistake": "L’encre noire ordinaire réactive à l’eau peut baver si tu ajoutes ensuite des finitions humides.",
+      "views": [
+        "Motif botanique imprimé sur les deux fonds",
+        "Détail du tampon et de l’empreinte"
+      ],
+      "photos": [
+        "duo-ink-oxide-08.webp",
+        "duo-ink-oxide-detail-08.webp"
+      ]
+    },
+    {
+      "title": "Terminer et conserver le duo",
+      "time": "7 min",
+      "body": "Passe une ficelle dans chaque trou ou ajoute un œillet si tu le souhaites. Inscris « Ink » et « Oxide » discrètement au dos, ainsi que la couleur, le papier et la date. Photographier les deux tags côte à côte terminera ce petit laboratoire personnel.",
+      "tip": "Garde les essais dans un classeur ou enregistre une photo et tes observations dans « Mon carnet ». Recommence plus tard sur papier kraft pour une autre comparaison.",
+      "mistake": "Ne tire pas de conclusion définitive à partir d’une seule teinte : les formulations et supports modifient le résultat.",
+      "views": [
+        "Les deux tags botaniques terminés",
+        "Vue comparative des effets"
+      ],
+      "photos": [
+        "duo-ink-oxide-09.webp",
+        "duo-ink-oxide-cover.webp"
+      ]
+    }
+  ],
+  "mistakes": [
+    "Comparer deux papiers ou deux couleurs différents rend les résultats difficiles à interpréter.",
+    "Les deux gammes réagissent à l’eau : elles ne sont pas des encres permanentes pour contours aquarellés.",
+    "Une Oxide n’est pas systématiquement plus claire : teinte, support et quantité appliquée comptent.",
+    "Laisser sécher complètement avant de tamponner le motif final."
+  ],
+  "challenge": "Réalise le duo Ink/Oxide avec la même couleur, note trois observations, puis photographie les tags ensemble. Recommence sur papier kraft si tu as envie d’approfondir.",
+  "sources": [
+    {
+      "label": "Ranger Ink : FAQ officielle Ink et Oxide",
+      "url": "https://rangerink.com/pages/faqs"
+    },
+    {
+      "label": "Ranger Ink : gamme Tim Holtz Distress",
+      "url": "https://rangerink.com/collections/tim-holtz-distress"
+    }
+  ],
+  "pattern": "./assets/atelier-encres-ink-oxide.pdf",
+  "imageNote": "Photographies d’illustration générées pour la pédagogie, pas photographies d’un essai réel. Le résultat exact dépend du matériel utilisé.",
+  "comparison": [
+    {
+      "feature": "Composition",
+      "ink": "Encre à colorants (dye)",
+      "oxide": "Encre hybride colorants + pigments"
+    },
+    {
+      "feature": "Sur papier blanc",
+      "ink": "Fond généralement plus translucide",
+      "oxide": "Effet plus doux et crayeux"
+    },
+    {
+      "feature": "Superposition",
+      "ink": "Patine et transparence",
+      "oxide": "Couverture plus marquée selon la teinte"
+    },
+    {
+      "feature": "Réaction à l’eau",
+      "ink": "Diffusion, éclaircissements",
+      "oxide": "Effets oxydés et nuagés"
+    },
+    {
+      "feature": "Pour essayer",
+      "ink": "Vieux papiers et fonds patinés",
+      "oxide": "Fonds doux et couches pigmentées"
+    }
+  ]
+});
+window.ATELIER_DATA.projects.unshift({
+  "id": "duo-tags-encres",
+  "title": "Duo de tags : Ink & Oxide",
+  "category": "Tags",
+  "season": "toutes",
+  "level": "Découverte +",
+  "duration": "1 h 10",
+  "image": "duo-ink-oxide-cover.webp",
+  "coverPhoto": "duo-ink-oxide-cover.webp",
+  "tutorial": true,
+  "mistakes": ["Comparer deux couleurs ou deux papiers différents fausse l’expérience.", "Des encres réactives à l’eau ne remplacent pas l’encre permanente destinée au contour.", "Ne pas tamponner avant le séchage complet des gouttelettes."],
+  "variants": ["Refaire le duo sur papier kraft.", "Tester une seconde couleur, puis réunir les tags sur un anneau.", "Comparer un tampon foncé et un tampon sépia sur le même fond."],
+  "description": "Deux tags jumeaux aux encres Distress : l’un patiné et translucide, l’autre doux et oxydé. Un projet pour jouer avec l’eau et les superpositions.",
+  "courseIds": [
+    "tamponnage",
+    "encres",
+    "degrades",
+    "distress-ink-oxide"
+  ],
+  "materials": [
+    "Deux tags en papier ivoire lisse 200 à 250 g/m², 7 × 12 cm chacun",
+    "Une Distress Ink et une Distress Oxide de la même couleur, si possible",
+    "Deux mousses ou brosses d’estompage distinctes",
+    "Règle, ciseaux ou massicot, perforatrice de 5 mm",
+    "Brumisateur ou pipette, eau propre et papier absorbant",
+    "Tampon botanique, bloc et encre permanente adaptée au papier (Archival une fois sèche)",
+    "Ficelle ou ruban, éventuellement deux œillets",
+    "Patron PDF imprimé à 100 % et chutes pour essais"
+  ],
+  "preparation": "Prévoir une surface protégée, un papier de brouillon et une bonne lumière. Étiqueter les deux échantillons au dos. Si tu possèdes une seule des deux gammes, réalise l’expérience avec cette encre et consulte la comparaison pour préparer un futur essai.",
+  "pattern": "./assets/atelier-encres-ink-oxide.pdf",
+  "patternDescription": "PDF de deux pages : fiche comparant les encres et deux patrons vierges de 70 × 120 mm à taille réelle, avec trait témoin de 50 mm.",
+  "steps": [
+    {
+      "title": "Découper deux tags identiques",
+      "duration": "7 min",
+      "body": "Découpe deux tags de 70 × 120 mm dans la même feuille de papier ivoire lisse (200 à 250 g/m²). Coupe les angles supérieurs sur 10 mm et perce un trou central de 5 mm, à 10 mm du bord supérieur. Utilise le patron imprimable à 100 % ; mesure le trait témoin de 50 mm.",
+      "tip": "Conserver les deux morceaux provenant de la même feuille limite les variations de papier dans la comparaison.",
+      "mistake": "Des papiers différents peuvent modifier la diffusion et fausser l’observation.",
+      "photo": "duo-ink-oxide-01.webp",
+      "caption": "Les deux tags vierges et le matériel"
+    },
+    {
+      "title": "Préparer un essai comparable",
+      "duration": "5 min",
+      "body": "Au dos, inscris « Ink » sur le premier tag et « Oxide » sur le second. Choisis une teinte disponible dans les deux gammes, idéalement la même référence colorée. Prépare un applicateur distinct pour chaque encre, un brouillon et un petit récipient d’eau.",
+      "tip": "Pour comparer honnêtement, ne change ni le papier, ni le geste, ni la couleur choisie. Si tu ne possèdes qu’une gamme, réalise simplement son essai.",
+      "mistake": "Deux couleurs très différentes ne permettent pas de comparer leurs rendus de façon fiable.",
+      "photo": "duo-ink-oxide-02.webp",
+      "caption": "Identification des échantillons au dos"
+    },
+    {
+      "title": "Estomper la Distress Ink",
+      "duration": "8 min",
+      "body": "Charge légèrement l’applicateur avec la Distress Ink, encre à colorants réactive à l’eau. Commence les mouvements circulaires sur le brouillon, puis entre doucement sur le premier tag. Construis le fond en couches fines, en laissant le centre plus clair.",
+      "tip": "L’Ink laisse souvent transparaître davantage le support, ce qui crée une patine lumineuse. Essaie des bords un peu plus soutenus.",
+      "mistake": "Commencer avec une mousse saturée directement au milieu peut laisser une tache ronde difficile à fondre.",
+      "photo": "duo-ink-oxide-03.webp",
+      "caption": "Pose de la Distress Ink en mouvements circulaires"
+    },
+    {
+      "title": "Estomper la Distress Oxide",
+      "duration": "8 min",
+      "body": "Avec un applicateur propre, applique la Distress Oxide sur le second tag en répétant exactement le même geste. Sa formule associant colorants et pigments peut donner un rendu plus doux et crayeux. Ne cherche pas à reproduire une opacité artificielle en ajoutant beaucoup plus d’encre.",
+      "tip": "Observe particulièrement le centre du tag : la différence de transparence apparaît souvent mieux sur une zone claire.",
+      "mistake": "Un applicateur déjà chargé de Distress Ink contaminerait le résultat de l’Oxide.",
+      "photo": "duo-ink-oxide-04.webp",
+      "caption": "Application de Distress Oxide sur le second tag"
+    },
+    {
+      "title": "Comparer après séchage",
+      "duration": "5 min",
+      "body": "Laisse sécher les deux fonds quelques minutes, puis pose-les côte à côte sous la même lumière. Note lequel laisse davantage apparaître le papier, lequel paraît plus mat, et si les bords sont plus ou moins marqués.",
+      "tip": "Photographie les tags ensemble, de préférence en lumière du jour indirecte, en gardant une petite carte blanche comme référence de couleur.",
+      "mistake": "Comparer un fond encore humide avec un fond sec risque de donner de fausses impressions.",
+      "photo": "duo-ink-oxide-05.webp",
+      "caption": "Observation des deux rendus côte à côte"
+    },
+    {
+      "title": "Tester la réaction à l’eau",
+      "duration": "6 min",
+      "body": "Sur une petite zone de chaque tag, fais tomber trois gouttelettes d’eau de taille comparable. Laisse agir quelques secondes sans frotter. Les deux encres sont réactives à l’eau, mais la présence de pigments dans l’Oxide peut produire un effet oxydé caractéristique.",
+      "tip": "Ne mouille pas toute la feuille : quelques gouttes suffisent pour observer le résultat sans gondoler excessivement le papier.",
+      "mistake": "Le comportement dépend aussi du papier, de la quantité d’encre et du temps de contact : il n’existe pas une réaction identique à chaque essai.",
+      "photo": "duo-ink-oxide-06.webp",
+      "caption": "Trois gouttelettes par tag"
+    },
+    {
+      "title": "Éponger et laisser sécher",
+      "duration": "8 min + séchage",
+      "body": "Dépose doucement un papier absorbant sur les gouttes, sans tirer ni frotter. Retire-le verticalement. Compare les zones éclaircies et les auréoles obtenues, puis laisse les tags sécher complètement avant tout tamponnage.",
+      "tip": "Sur un fond encore humide, on peut observer une migration de pigments ou de colorants ; attends le séchage pour juger la couleur finale.",
+      "mistake": "Frotter l’essuie-tout provoque des traînées qui masquent le test de gouttelettes.",
+      "photo": "duo-ink-oxide-07.webp",
+      "caption": "Épongeage délicat des deux fonds"
+    },
+    {
+      "title": "Tamponner le même motif",
+      "duration": "8 min",
+      "body": "Une fois les tags secs, imprime le même tampon botanique avec une encre permanente résistante à l’eau après séchage, par exemple Archival Ink. Utilise le même positionnement et la même pression sur les deux tags afin de conserver une comparaison utile.",
+      "tip": "Teste d’abord l’encre de contour sur une chute et veille à ce que le support soit sec. Le motif noir apporte un point focal commun.",
+      "mistake": "L’encre noire ordinaire réactive à l’eau peut baver si tu ajoutes ensuite des finitions humides.",
+      "photo": "duo-ink-oxide-08.webp",
+      "caption": "Motif botanique imprimé sur les deux fonds"
+    },
+    {
+      "title": "Terminer et conserver le duo",
+      "duration": "7 min",
+      "body": "Passe une ficelle dans chaque trou ou ajoute un œillet si tu le souhaites. Inscris « Ink » et « Oxide » discrètement au dos, ainsi que la couleur, le papier et la date. Photographier les deux tags côte à côte terminera ce petit laboratoire personnel.",
+      "tip": "Garde les essais dans un classeur ou enregistre une photo et tes observations dans « Mon carnet ». Recommence plus tard sur papier kraft pour une autre comparaison.",
+      "mistake": "Ne tire pas de conclusion définitive à partir d’une seule teinte : les formulations et supports modifient le résultat.",
+      "photo": "duo-ink-oxide-09.webp",
+      "caption": "Les deux tags botaniques terminés"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ranger Ink : FAQ officielle Ink et Oxide",
+      "url": "https://rangerink.com/pages/faqs"
+    },
+    {
+      "label": "Ranger Ink : gamme Tim Holtz Distress",
+      "url": "https://rangerink.com/collections/tim-holtz-distress"
+    }
+  ]
+});
+window.ATELIER_DATA.inspirations.unshift({"title":"Deux encres, deux ambiances","subtitle":"Comparer Distress Ink et Distress Oxide sur des tags","image":"duo-ink-oxide-cover.webp","filter":"Tags"});
