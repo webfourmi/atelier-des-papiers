@@ -1,0 +1,71 @@
+{
+  "version": "0.3.0",
+  "releases": [
+    {
+      "version": "0.3.0",
+      "date": "2026-11-08",
+      "title": "Installation et mises à jour",
+      "intro": "L’Atelier des Papiers devient plus simple à installer et à maintenir à jour, sans perdre tes créations personnelles.",
+      "sections": [
+        {
+          "title": "Installer l’application",
+          "items": [
+            "Bouton « Installer » directement dans l’application, avec invitation native lorsqu’elle est proposée par le navigateur.",
+            "Icône personnalisée sur l’écran d’accueil et ouverture en fenêtre autonome.",
+            "Instructions adaptées pour Android, iPhone et ordinateur lorsque l’installation directe n’est pas proposée."
+          ]
+        },
+        {
+          "title": "Mises à jour maîtrisées",
+          "items": [
+            "Détection des nouvelles versions et bouton « Installer la mise à jour » lorsqu’une version est prête.",
+            "Vérification manuelle depuis « Mon atelier », sans recharger inutilement la page.",
+            "Affichage automatique de la liste détaillée des nouveautés après une mise à jour, une seule fois par version.",
+            "Historique des versions consultable à tout moment depuis le bouton « Nouveautés »."
+          ]
+        },
+        {
+          "title": "Protection des créations",
+          "items": [
+            "Les sauvegardes, favoris, notes et photographies existants restent intacts lors des mises à jour.",
+            "L’application conserve son fonctionnement hors connexion après la première installation et la mise en cache des contenus."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "date": "2026-11-08",
+      "title": "Un tag vintage aux encres Distress",
+      "intro": "Le premier atelier pratique est disponible, avec des photographies d’étapes et un patron imprimable.",
+      "sections": [
+        {
+          "title": "Nouveaux contenus",
+          "items": [
+            "Tutoriel détaillé pour un tag vintage de 7 × 12 cm, avec neuf gestes illustrés.",
+            "Patron PDF à taille réelle, conseils, erreurs fréquentes et exercice final.",
+            "Photographies du travail des encres, du tamponnage et des finitions.",
+            "Suivi personnel des étapes du projet et mise à jour des ressources hors ligne."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "date": "2026-11-08",
+      "title": "Ouverture de l’atelier",
+      "intro": "Création de la première bibliothèque de scrapbooking.",
+      "sections": [
+        {
+          "title": "Première collection",
+          "items": [
+            "Cinq rubriques : Accueil, Projets, Cours, Mon carnet et Mon atelier.",
+            "Huit cours progressifs et accessibles librement, projets de saison et tags.",
+            "Carnet personnel photographique, favoris, inventaire, nuancier et sauvegarde JSON.",
+            "Quatre ambiances graphiques selon les saisons."
+          ]
+        }
+      ]
+    }
+  ]
+}

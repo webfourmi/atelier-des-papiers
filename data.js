@@ -1,5 +1,5 @@
 window.ATELIER_DATA = {
-  version:'0.2.0',
+  version:'0.3.0',
   families:[
     {id:'tampons',label:'Tampons & impression',icon:'stamp'},
     {id:'encres',label:'Encres & fonds',icon:'droplets'},

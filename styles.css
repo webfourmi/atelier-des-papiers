@@ -17,3 +17,36 @@ body[data-season="hiver"]{--primary:#687b89;--primary-strong:#465969;--primary-l
 .tag-pattern-silhouette{background:repeating-linear-gradient(0deg,#f8f3e9 0,#f8f3e9 15px,#f5ece0 15px,#f5ece0 16px);border-radius:12px;padding:15px;text-align:center;margin:14px 0}.tag-pattern-silhouette svg{width:110px;height:175px;max-width:100%}
 @media(max-width:1030px){.tag-tutorial-layout{grid-template-columns:1fr}.tag-sidebar{position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.tag-sidebar .panel{min-width:0}}
 @media(max-width:720px){.tag-tutorial-intro{grid-template-columns:1fr}.tag-cover{min-height:240px;max-height:330px}.tag-cover img{height:100%;max-height:330px}.tag-stage{grid-template-columns:1fr}.tag-stage-photo{min-height:0;aspect-ratio:4/3}.tag-stage-photo>img{position:relative;height:100%}.tag-stage-text{padding:19px}.tag-sidebar{grid-template-columns:1fr}.tag-intro-copy{padding:22px}.tag-intro-actions>.btn{font-size:.86rem}}
+/* Installation PWA et notes de versions */
+.pwa-trigger{white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--border);border-radius:999px;background:var(--card);padding:8px 13px;color:var(--primary);font-weight:650;cursor:pointer;font-size:.79rem;min-height:39px}
+.pwa-trigger:hover{background:var(--primary-light)}
+.pwa-trigger img{width:19px;height:19px;object-fit:contain}
+.pwa-panel{margin:16px 0 26px;padding:20px;border:1px solid var(--border);border-radius:var(--radius);background:var(--card);box-shadow:var(--shadow)}
+.pwa-panel h2{margin:0 0 8px;font-family:var(--font-serif);font-weight:normal}
+.pwa-panel p{color:var(--muted);margin:6px 0 14px}
+.pwa-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.pwa-actions button{cursor:pointer}
+.pwa-panel .pwa-version{font-size:.84rem;color:var(--muted)}
+.pwa-update-banner{display:flex;gap:13px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:14px 17px;margin-bottom:20px;background:#f3e5ce;border:1px solid #cdb08b;border-radius:14px}
+.pwa-update-banner strong{display:block;color:var(--primary-strong)}
+.pwa-update-banner p{font-size:.88rem;margin:2px 0 0;color:var(--text)}
+.pwa-update-banner button{cursor:pointer;white-space:nowrap}
+.pwa-modal{width:min(650px,calc(100vw - 28px));max-height:min(85dvh,790px);overflow-y:auto;background:#fffaf3;color:var(--text);border:1px solid var(--border);border-radius:20px;box-shadow:0 22px 72px #30221659;padding:0}
+.pwa-modal::backdrop{background:#1b1713a8}
+.pwa-modal-inner{padding:clamp(20px,3.5vw,34px)}
+.pwa-modal-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.pwa-modal-top h2{font-family:var(--font-serif);font-weight:normal;font-size:clamp(1.5rem,3.5vw,2.1rem);margin:4px 0 10px;color:var(--primary-strong)}
+.pwa-modal-top button{border:0;background:transparent;font-size:1.7rem;cursor:pointer;padding:0 8px;color:var(--muted)}
+.pwa-version-chip{display:inline-block;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--primary);background:var(--primary-light);border-radius:999px;padding:4px 10px}
+.pwa-release-section{padding:12px 0;border-top:1px solid var(--border)}
+.pwa-release-section h3{font-family:var(--font-serif);margin:4px 0 8px;color:var(--primary)}
+.pwa-release-section ul{margin:0;padding-left:22px;line-height:1.65}
+.pwa-modal-intro{margin:6px 0 18px}
+.pwa-release-history{border-top:1px solid var(--border);padding:12px 0}
+.pwa-release-history summary{cursor:pointer;color:var(--primary);font-weight:600}
+.pwa-modal-footer{display:flex;gap:8px;justify-content:flex-end;border-top:1px solid var(--border);padding-top:15px;margin-top:15px}
+.pwa-install-guide{display:grid;grid-template-columns:68px 1fr;gap:14px;align-items:center;margin:18px 0}
+.pwa-install-guide img{width:68px;height:68px;border-radius:14px;box-shadow:var(--shadow)}
+.pwa-install-guide ol{padding-left:20px;line-height:1.75}
+@media(max-width:800px){.pwa-trigger{padding:8px 10px;font-size:.75rem}.pwa-update-banner{align-items:stretch}.pwa-update-banner .btn{width:100%}}
+@media(max-width:380px){.pwa-trigger .pwa-install-text{display:none}.pwa-trigger{width:39px;padding:8px}}

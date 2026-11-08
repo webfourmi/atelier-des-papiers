@@ -2,7 +2,7 @@
 
 Une première version **PWA statique** de l'application personnelle de scrapbooking, conçue pour mobile et ordinateur.
 
-## Contenu (version 0.2.0)
+## Contenu (version 0.3.0)
 
 - Accueil avec thème graphique au choix : printemps, été, automne, hiver.
 - Huit cours progressifs avec matériel, conseils, schémas pédagogiques, erreurs à éviter, exercices, progression mémorisée et notes personnelles.
@@ -12,6 +12,21 @@ Une première version **PWA statique** de l'application personnelle de scrapbook
 - Inventaire de matériel, nuancier d'encres, favoris.
 - Sauvegarde intégrale exportable en JSON et restauration après confirmation.
 - PWA hors connexion après une première visite en ligne.
+- Icône et bouton d'installation sur Android, iOS, Chrome et Edge lorsque le navigateur le permet.
+- Vérification de version depuis Mon atelier, notification de mise à jour, installation après confirmation et journal détaillé affiché une seule fois par version.
+
+## Nouveauté 0.3.0 : installation et suivi des mises à jour
+
+- Un bouton **Installer** est proposé dans l'en-tête et dans Mon atelier. Il ouvre la proposition native si Chrome / Edge la fournit, ou un guide manuel selon l'appareil.
+- Sur iPhone : depuis Safari, **Partager > Sur l'écran d'accueil**.
+- Les icônes 192 / 512 pixels et le manifeste PWA sont présents, avec une icône dédiée également sur iOS.
+- **Mon atelier > Application et mises à jour** permet de vérifier la présence de nouveautés et d'ouvrir l'historique des versions.
+- Les nouvelles versions sont préparées par un service worker en attente, puis activées **sur demande**, pour éviter un rechargement pendant un projet.
+- Après la mise à jour, la fenêtre **Nouveautés** détaille les ajouts et corrections. Sa fermeture est mémorisée dans localStorage : elle ne réapparaît plus avant la version suivante. Le bouton « Nouveautés » reste disponible pour relire le journal.
+- Les données personnelles déjà présentes dans IndexedDB / localStorage ne sont pas réinitialisées.
+- Un mécanisme unique de migration 0.2 → 0.3 permet à l'ancienne PWA de prendre en compte les nouveaux fichiers à la prochaine ouverture.
+
+**Pour une version future :** mettre à jour simultanément `data.js` (numéro de version), `changelog.json` (nouvelle entrée en tête), et `sw.js` (nouveau nom de cache et liste de ressources si nécessaire). Ne jamais vider les données utilisateur pour forcer une mise à jour.
 
 ## Nouveauté 0.2.0 : tag vintage aux encres Distress
 
