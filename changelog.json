@@ -1,6 +1,39 @@
 {
-  "version": "0.6.2",
+  "version": "0.6.3",
   "releases": [
+    {
+      "version": "0.6.3",
+      "date": "2026-11-08",
+      "title": "Tags givrés : les images photoréalistes",
+      "intro": "Le projet Tags givrés présente désormais une image de type photographie par étape et en couverture. Les schémas techniques restent disponibles séparément.",
+      "sections": [
+        {
+          "title": "Des images pour chaque geste",
+          "items": [
+            "Nouvelle image photoréaliste finale en couverture et dans la galerie des projets.",
+            "Neuf vues photoréalistes : matériel, découpe, estompage, gouttelettes, tampons, embossage, pâte neigeuse, ornements et rubans.",
+            "Images agrandissables, adaptées à l’écran mobile, avec un seul visuel principal par étape.",
+            "Les illustrations ont été générées pour la pédagogie : ce ne sont pas des photographies de gestes réellement exécutés."
+          ]
+        },
+        {
+          "title": "Schémas et patrons préservés",
+          "items": [
+            "Les neuf schémas SVG d’origine restent accessibles avec le bouton « Voir le schéma technique ».",
+            "Les dimensions du patron PDF 7 × 12 cm et la fiche imprimable sont conservées.",
+            "Les conseils techniques et les erreurs fréquentes restent inchangés."
+          ]
+        },
+        {
+          "title": "Mise à jour et sauvegardes",
+          "items": [
+            "Le projet conserve son identifiant, ses neuf étapes et sa progression.",
+            "Les notes, favoris, inventaire et photographies du carnet personnel ne sont pas modifiés.",
+            "Les dix nouvelles images sont ajoutées au cache hors ligne de la PWA."
+          ]
+        }
+      ]
+    },
     {
       "version": "0.6.2",
       "date": "2026-11-08",

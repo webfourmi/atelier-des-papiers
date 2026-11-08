@@ -2,7 +2,7 @@
 
 Une première version **PWA statique** de l'application personnelle de scrapbooking, conçue pour mobile et ordinateur.
 
-## Contenu (version 0.6.2)
+## Contenu (version 0.6.3)
 
 - Accueil avec thème graphique au choix : printemps, été, automne, hiver.
 - Neuf cours progressifs avec matériel, conseils, schémas pédagogiques, erreurs à éviter, exercices, progression mémorisée et notes personnelles.
@@ -14,6 +14,14 @@ Une première version **PWA statique** de l'application personnelle de scrapbook
 - PWA hors connexion après une première visite en ligne.
 - Icône et bouton d'installation sur Android, iOS, Chrome et Edge lorsque le navigateur le permet.
 - Vérification de version depuis Mon atelier, notification de mise à jour, installation après confirmation et journal détaillé affiché une seule fois par version.
+
+## Nouveautés 0.6.3 : Tags givrés illustré en photoréalisme
+
+- La couverture et la vignette du projet **Tags givrés** utilisent une vue photoréaliste de trois tags finis.
+- Chaque étape présente désormais sa propre image photoréaliste, soit **neuf vues**, au lieu d'un SVG comme image principale.
+- Les anciens SVG ne sont pas supprimés : ils sont consultables séparément par **Voir le schéma technique** ; la fiche et le patron PDF restent disponibles.
+- Toutes les illustrations photoréalistes sont **générées numériquement**, pas des photos de travaux réels.
+- Le service worker met en cache les dix nouveaux WebP. L'identifiant du projet et les sauvegardes existantes sont inchangés.
 
 ## Nouveautés 0.6.2 : corrections visuelles et Tags givrés
 

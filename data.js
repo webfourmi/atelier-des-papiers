@@ -1,5 +1,5 @@
 window.ATELIER_DATA = {
-  version:'0.6.2',
+  version:'0.6.3',
   families:[
     {id:'tampons',label:'Tampons & impression',icon:'stamp'},
     {id:'encres',label:'Encres & fonds',icon:'droplets'},
@@ -834,4 +834,20 @@ p.steps.forEach((st,i)=>{
   "Position de l’œillet, de la ficelle et de l’étiquette"
  ][i];
 });
+})();
+
+
+// V0.6.3 : photos d'illustration du projet Tags givrés
+(()=>{
+ const project=window.ATELIER_DATA.projects.find(p=>p.id==='tags-hiver');
+ if(!project)return;
+ project.image='tags-givres-photo-final.webp';
+ project.coverPhoto='tags-givres-photo-final.webp';
+ project.visualNote="Vues photoréalistes générées pour illustrer les étapes, non photographies d'essais réalisés. Les anciens schémas techniques restent accessibles séparément et les dimensions écrites font référence.";
+ project.steps.forEach((step,index)=>{
+   step.diagram=step.photo;
+   step.diagramCaption="Schéma technique original de l'étape "+(index+1)+" : "+step.title;
+   step.photo='tags-givres-photo-'+String(index+1).padStart(2,'0')+'.webp';
+   step.caption="Vue photoréaliste d'illustration : "+step.title;
+ });
 })();
