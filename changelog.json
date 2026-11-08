@@ -1,6 +1,40 @@
 {
-  "version": "0.5.0",
+  "version": "0.6.0",
   "releases": [
+    {
+      "version": "0.6.0",
+      "date": "2026-11-08",
+      "title": "Créer avec des papiers coordonnés",
+      "intro": "Deux projets complets avec mesures, couches successives, schémas illustrés et lien vers les sketches pour passer du modèle à ta propre création.",
+      "sections": [
+        {
+          "title": "Nouveaux projets guidés",
+          "items": [
+            "« Jardin de saison » : une page photo 30 × 30 cm, neuf étapes de montage et des découpes précises.",
+            "« Une attention botanique » : une carte 10,5 × 15 cm, six étapes et un jeu de papiers assortis.",
+            "Des schémas originaux à chaque étape, agrandissables, et des fiches de composition SVG imprimables.",
+            "Des conseils pour choisir les papiers, placer les embellissements et conserver les photos originales."
+          ]
+        },
+        {
+          "title": "Du sketch au projet",
+          "items": [
+            "Chaque projet permet d’ouvrir directement le sketch de départ.",
+            "Nouvelle section « Dans quel ordre superposer ? » avec les couches à préparer avant collage.",
+            "Dans Inspirations & sketches, un guide « Comment associer trois papiers ? » : uni, motif vedette et motif discret.",
+            "Deux nouveaux thèmes d’inspiration : Jardin de saison et Carterie botanique."
+          ]
+        },
+        {
+          "title": "Conservation et stabilité",
+          "items": [
+            "Conseils de conservation des photographies d’après la Library of Congress : utiliser des coins photo ou des pochettes appropriées pour les originaux.",
+            "Aucun changement du format de sauvegarde : carnet, notes, photos, favoris et matériel sont conservés.",
+            "Mise à jour PWA avec les nouveaux fichiers disponibles après leur mise en cache."
+          ]
+        }
+      ]
+    },
     {
       "version": "0.5.0",
       "date": "2026-11-08",

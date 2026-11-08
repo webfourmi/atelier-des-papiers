@@ -139,3 +139,19 @@ body[data-season="hiver"]{--primary:#687b89;--primary-strong:#465969;--primary-l
   .sketch-instructions li,.sketch-list li{font-size:9pt;margin-bottom:4pt}
   .sketch-detail-grid aside{gap:6mm}
 }
+
+/* V0.6 • Couches de papier et projets coordonnés */
+.layer-guide{padding-left:22px;margin:16px 0 8px;line-height:1.72}
+.layer-guide li{margin-bottom:9px;padding-left:3px}
+.tag-pattern-silhouette:has(.sketch-svg){display:grid;place-items:center;min-height:220px}
+.tag-pattern-silhouette:has(.sketch-svg) svg{width:min(100%,235px);height:auto;max-height:265px;filter:drop-shadow(0 5px 9px #604d3c25)}
+.collection-guide{margin:26px 0;padding:clamp(19px,3vw,30px)}
+.collection-guide h2{font:normal clamp(1.55rem,2.3vw,2.1rem)/1.24 var(--font-serif);margin:11px 0 9px}
+.collection-guide>p{max-width:760px;line-height:1.7;color:var(--muted)}
+.collection-roles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}
+.collection-roles>div{border-radius:12px;background:var(--bg);border:1px solid var(--border);padding:16px}
+.collection-roles>div strong{color:var(--primary)}
+.collection-roles>div p{font-size:.84rem;color:var(--muted);margin:7px 0 0}
+.collection-actions{display:flex;gap:9px;flex-wrap:wrap;margin:16px 0}
+.collection-guide .text-link{display:inline-flex;margin-top:7px}
+@media(max-width:580px){.collection-roles{grid-template-columns:1fr}.collection-actions .btn{width:100%}}

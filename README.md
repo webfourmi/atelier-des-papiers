@@ -2,7 +2,7 @@
 
 Une première version **PWA statique** de l'application personnelle de scrapbooking, conçue pour mobile et ordinateur.
 
-## Contenu (version 0.5.0)
+## Contenu (version 0.6.0)
 
 - Accueil avec thème graphique au choix : printemps, été, automne, hiver.
 - Neuf cours progressifs avec matériel, conseils, schémas pédagogiques, erreurs à éviter, exercices, progression mémorisée et notes personnelles.
@@ -14,6 +14,17 @@ Une première version **PWA statique** de l'application personnelle de scrapbook
 - PWA hors connexion après une première visite en ligne.
 - Icône et bouton d'installation sur Android, iOS, Chrome et Edge lorsque le navigateur le permet.
 - Vérification de version depuis Mon atelier, notification de mise à jour, installation après confirmation et journal détaillé affiché une seule fois par version.
+
+## Nouveautés 0.6.0 : projets complets avec papiers coordonnés
+
+- **Jardin de saison** : projet guidé de page photo 30 × 30 cm, neuf étapes cotées, papiers floraux et vert sauge, photographie centrale, tag de journaling, découpes et embellissements.
+- **Une attention botanique** : projet de carterie 10,5 × 15 cm, six étapes et trois papiers coordonnés.
+- Chaque création possède des schémas d’assemblage SVG originaux, zoomables, un plan imprimable, le matériel, les erreurs à éviter, plusieurs variations et une progression enregistrable.
+- Les deux tutoriels renvoient à leur sketch d’origine. Le volet **Inspirations & sketches** contient un guide en trois papiers (uni, motif principal, motif discret).
+- Pour les photos originales, éviter la colle ou le ruban ordinaire appliqué directement sur l’image ; privilégier des coins photo adaptés. Source : [Library of Congress](https://www.loc.gov/preservation/care/albums.html).
+- Les visuels intégrés au site pour ces deux projets sont des **illustrations schématiques**, pas des photographies d’une réalisation exécutée. Les dimensions écrites sont prioritaires.
+- Les plans SVG imprimables ne sont pas des patrons 1:1 : une page 30 × 30 cm ne tient pas sur A4.
+- Les données personnelles restent dans le navigateur ; les sauvegardes existantes ne sont pas modifiées.
 
 ## Nouveautés 0.5.0 : sketches & papiers coordonnés
 

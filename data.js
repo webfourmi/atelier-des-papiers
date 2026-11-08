@@ -1,5 +1,5 @@
 window.ATELIER_DATA = {
-  version:'0.5.0',
+  version:'0.6.0',
   families:[
     {id:'tampons',label:'Tampons & impression',icon:'stamp'},
     {id:'encres',label:'Encres & fonds',icon:'droplets'},
@@ -392,3 +392,258 @@ window.ATELIER_DATA.projects.unshift({
   ]
 });
 window.ATELIER_DATA.inspirations.unshift({"title":"Deux encres, deux ambiances","subtitle":"Comparer Distress Ink et Distress Oxide sur des tags","image":"duo-ink-oxide-cover.webp","filter":"Tags"});
+
+// V0.6.0 • projets originaux de composition avec papiers coordonnés
+window.ATELIER_DATA.projects.unshift({
+  "id": "jardin-de-saison-guide",
+  "title": "Jardin de saison : page photo",
+  "category": "Pages photo",
+  "season": "toutes",
+  "level": "Découverte +",
+  "duration": "1 h",
+  "image": "jardin-page-finale.svg",
+  "coverPhoto": "jardin-page-finale.svg",
+  "tutorial": true,
+  "tutorialLabel": "PAPIERS COORDONNÉS · PAGE PHOTO",
+  "sketchId": "photo-vedette",
+  "description": "Une page 30 × 30 cm aux papiers floraux, à la photo principale et aux détails patinés. Un pas-à-pas de neuf étapes pour apprendre à répartir les couches sans surcharger la composition.",
+  "courseIds": [
+    "tamponnage",
+    "degrades",
+    "carte-botanique"
+  ],
+  "materials": [
+    "Papier de base uni crème 30 × 30 cm, assez épais",
+    "Papier à motifs floraux : une bande de 26 × 5 cm",
+    "Papier vert sauge : une bande de 3 × 24 cm",
+    "Papier terracotta : une bande de 24 × 3 cm à déchirer",
+    "Une photographie verticale 10 × 15 cm (copie recommandée pour un montage créatif)",
+    "Coins photo adaptés à la conservation si la photographie est originale",
+    "Étiquette pour le titre 9 × 2,7 cm",
+    "Petit tag à journaling 5 × 8 cm",
+    "Dentelle en papier, deux groupes de découpes botaniques, ruban et outils habituels"
+  ],
+  "preparation": "Préparer une table dégagée. Garder toutes les découpes mobiles avant de coller. Utiliser une copie des photographies patrimoniales ou des coins photo adaptés. Les schémas d’étapes présentent l’ordre de montage, pas un patron à taille réelle.",
+  "pattern": "./assets/guide-page-jardin.svg",
+  "patternDescription": "Fiche de dimensions et schéma de composition SVG imprimable. Un format 30 × 30 cm ne tient pas à taille réelle sur A4 : se fier aux mesures écrites.",
+  "steps": [
+    {
+      "title": "Choisir les papiers",
+      "duration": "6 min",
+      "body": "Sur une base de scrapbooking 30 × 30 cm crème, associer un motif floral dominant, un papier vert sauge discret et une texture terracotta. Placer les papiers à blanc pour vérifier leur contraste avant de couper.",
+      "tip": "Choisis un papier « vedette », un discret et un uni. Trois familles suffisent pour éviter une page confuse.",
+      "mistake": "Multiplier les motifs aussi forts les uns que les autres rend la photo peu lisible.",
+      "photo": "jardin-page-01.svg",
+      "caption": "Schéma de montage de la page photo, étape 1 : Choisir les papiers"
+    },
+    {
+      "title": "Découper la bande florale",
+      "duration": "6 min",
+      "body": "Couper une bande de papier floral de 26 × 5 cm. Vérifier le sens des fleurs, puis garder environ 2 cm de marge à gauche et à droite de la page.",
+      "tip": "Conserver une chute du motif : elle pourra servir à découper une petite fleur pour rappeler la bande principale.",
+      "mistake": "Découper trop vite un motif directionnel peut mettre les fleurs tête en bas.",
+      "photo": "jardin-page-02.svg",
+      "caption": "Schéma de montage de la page photo, étape 2 : Découper la bande florale"
+    },
+    {
+      "title": "Ajouter la bande verticale",
+      "duration": "5 min",
+      "body": "Découper 3 × 24 cm dans le papier vert sauge et la positionner à environ 2 cm du bord droit, en recouvrant très légèrement la bande florale.",
+      "tip": "Cette bande apporte un axe vertical et relie visuellement le haut et le bas.",
+      "mistake": "Une bande trop large écraserait la photographie et déplacerait l’équilibre de la page.",
+      "photo": "jardin-page-03.svg",
+      "caption": "Schéma de montage de la page photo, étape 3 : Ajouter la bande verticale"
+    },
+    {
+      "title": "Installer la photographie",
+      "duration": "8 min",
+      "body": "Préparer une photographie verticale de 10 × 15 cm. La placer à 4 cm du bord gauche et 9,5 cm du haut. Pour un tirage original, fixer avec des coins photo de conservation plutôt qu’en appliquant directement de la colle au dos.",
+      "tip": "Avant le montage définitif, vérifier que les coins ne masquent aucun détail important de l’image.",
+      "mistake": "Éviter les rubans adhésifs ordinaires sur les photographies destinées à être conservées.",
+      "photo": "jardin-page-04.svg",
+      "caption": "Schéma de montage de la page photo, étape 4 : Installer la photographie"
+    },
+    {
+      "title": "Positionner le titre",
+      "duration": "6 min",
+      "body": "Préparer une étiquette titre de 9 × 2,7 cm. La poser à droite de la photographie, environ 17 cm depuis le bord gauche et 9 cm sous le bord supérieur. Utiliser un alphabet, un petit tampon texte ou une inscription à la main.",
+      "tip": "Limiter le titre à quelques mots : c’est la photographie qui doit porter l’histoire.",
+      "mistake": "Ne pas superposer une étiquette volumineuse sur le visage d’une personne ou une partie importante de la photo.",
+      "photo": "jardin-page-05.svg",
+      "caption": "Schéma de montage de la page photo, étape 5 : Positionner le titre"
+    },
+    {
+      "title": "Composer la bande basse",
+      "duration": "7 min",
+      "body": "Déchirer une bande terracotta de 24 × 3 cm et la placer à environ 26 cm du haut de la page. Ajouter une fine bande de dentelle ou de papier ajouré au-dessus, sans couvrir la photographie.",
+      "tip": "Les bords déchirés répondent au style floral et donnent une texture douce.",
+      "mistake": "Mettre trop de couches en bas peut rendre la page difficile à glisser dans sa protection.",
+      "photo": "jardin-page-06.svg",
+      "caption": "Schéma de montage de la page photo, étape 6 : Composer la bande basse"
+    },
+    {
+      "title": "Créer un tag de journaling",
+      "duration": "7 min",
+      "body": "Découper un petit tag de 5 × 8 cm et percer un trou pour une ficelle. Le placer à droite et en dessous de la photo, sans recouvrir la légende ou la bande florale. Écrire au dos une date, un lieu ou une anecdote.",
+      "tip": "Le tag peut être amovible si tu le places dans une petite pochette, ce qui enrichit la page sans la surcharger.",
+      "mistake": "Éviter de coller l’ensemble du tag si tu veux garder ses deux faces consultables.",
+      "photo": "jardin-page-07.svg",
+      "caption": "Schéma de montage de la page photo, étape 7 : Créer un tag de journaling"
+    },
+    {
+      "title": "Ajouter deux groupes d’embellissements",
+      "duration": "8 min",
+      "body": "Placer un premier groupe de petites fleurs ou de feuillages près de l’étiquette titre, et un second groupe plus discret vers le bas. Ajouter éventuellement un papillon, puis vérifier que les éléments ne débordent pas sur les zones utiles.",
+      "tip": "Une répétition de deux couleurs et de quelques formes donne plus d’unité qu’une multitude d’ornements différents.",
+      "mistake": "Trop d’éléments en relief risquent d’abîmer les pages voisines.",
+      "photo": "jardin-page-08.svg",
+      "caption": "Schéma de montage de la page photo, étape 8 : Ajouter deux groupes d’embellissements"
+    },
+    {
+      "title": "Assembler et documenter",
+      "duration": "6 min",
+      "body": "Coller les papiers en commençant par les grandes bandes, puis fixer les éléments fins. Ajouter date et lieu, prendre une photo de l’ensemble et noter dans ton carnet les papiers utilisés et ce que tu modifierais la prochaine fois.",
+      "tip": "Garde une photo du montage avant collage : elle sera utile si tu veux recréer ce style.",
+      "mistake": "N’utilise pas une colle humide à proximité d’une photographie fragile ; protège ou remplace les originaux.",
+      "photo": "jardin-page-09.svg",
+      "caption": "Schéma de montage de la page photo, étape 9 : Assembler et documenter"
+    }
+  ],
+  "mistakes": [
+    "Superposer de trop nombreux motifs d'égale importance et perdre le point focal.",
+    "Coller les photographies originales avec une colle de bricolage non adaptée.",
+    "Choisir des reliefs volumineux qui empêchent de ranger la page dans sa protection."
+  ],
+  "variants": [
+    "Version Simple Stories : choisir un papier floral vedette, un uni et un motif ton sur ton de la même collection.",
+    "Version automne vintage : vieux rose, brun patiné, petite étiquette numérotée et tampons d’écriture.",
+    "Version carnet de voyage : remplacer le tag botanique par une pochette pour billet et date."
+  ],
+  "layerGuide": [
+    "1. Base unie, pour laisser respirer la photographie.",
+    "2. Motif floral principal et bande contrastante.",
+    "3. Photographie (fixation réversible si elle est précieuse).",
+    "4. Titre et journaling.",
+    "5. Éléments fins et embellissements, posés en dernier."
+  ],
+  "sources": [
+    {
+      "label": "Simple Stories : collections de papiers coordonnées",
+      "url": "https://www.simplestories.com/collections"
+    },
+    {
+      "label": "Library of Congress : conservation des albums et photographies",
+      "url": "https://www.loc.gov/preservation/care/albums.html"
+    }
+  ]
+},
+{
+  "id": "carte-jardin-coordonnee",
+  "title": "Une attention botanique",
+  "category": "Carterie",
+  "season": "toutes",
+  "level": "Découverte",
+  "duration": "40 min",
+  "image": "carte-coordonnee-finale.svg",
+  "coverPhoto": "carte-coordonnee-finale.svg",
+  "tutorial": true,
+  "tutorialLabel": "CARTERIE · PAPIERS COORDONNÉS",
+  "sketchId": "carte-botanique",
+  "description": "Une carte florale de 10,5 × 15 cm avec trois papiers assortis, un motif central et un message. Six étapes cotées pour apprendre les superpositions en douceur.",
+  "courseIds": [
+    "tamponnage",
+    "carte-botanique"
+  ],
+  "materials": [
+    "Papier cartonné de base 21 × 15 cm, à plier à 10,5 cm",
+    "Papier uni vert sauge : 9,5 × 14 cm",
+    "Papier floral : 8,5 × 5 cm",
+    "Bande contrastante : 2 × 11 cm",
+    "Motif botanique tamponné ou découpe originale",
+    "Étiquette message : 6 × 1,5 cm",
+    "Plioir, règle, massicot, colle adaptée et petite mousse adhésive facultative"
+  ],
+  "preparation": "Choisir trois papiers coordonnés mais visuellement distincts : un uni calme, un floral et un petit motif discret. Tester la composition à blanc avant le collage. Les images sont des schémas de montage, pas des photographies de gestes.",
+  "pattern": "./assets/guide-carte-botanique.svg",
+  "patternDescription": "Plan SVG imprimable indiquant toutes les mesures. Le dessin de composition n’est pas un patron de découpe à taille réelle.",
+  "steps": [
+    {
+      "title": "Découper et plier la base",
+      "duration": "5 min",
+      "body": "Découper un papier cartonné de 21 × 15 cm. Marquer un pli vertical à 10,5 cm, puis replier soigneusement avec un plioir pour obtenir une carte fermée de 10,5 × 15 cm.",
+      "tip": "Un carton de 220 à 300 g/m² offre une carte qui se tient bien sans devenir difficile à plier.",
+      "mistake": "Un pli fait sans rainage peut fissurer un carton très épais.",
+      "photo": "carte-coordonnee-01.svg",
+      "caption": "Schéma coté de la carte, étape 1 : Découper et plier la base"
+    },
+    {
+      "title": "Poser le panneau de couleur",
+      "duration": "5 min",
+      "body": "Découper un panneau vert sauge de 9,5 × 14 cm. Centrer à blanc sur la face avant de la carte : il restera une marge de 0,5 cm de chaque côté.",
+      "tip": "Pour une composition soignée, mesure les marges avant de fixer la colle.",
+      "mistake": "Coller le panneau sans vérifier le sens d’ouverture peut inverser la carte.",
+      "photo": "carte-coordonnee-02.svg",
+      "caption": "Schéma coté de la carte, étape 2 : Poser le panneau de couleur"
+    },
+    {
+      "title": "Installer le papier floral",
+      "duration": "6 min",
+      "body": "Découper un morceau floral de 8,5 × 5 cm. Le placer dans le tiers supérieur du panneau sauge, sans chercher à recouvrir toute la surface. Tester l’emplacement du motif avant collage.",
+      "tip": "Si les fleurs sont grandes, choisir une zone du motif qui laisse une partie plus calme pour le sujet central.",
+      "mistake": "Le motif très dense peut concurrencer le message si toute la carte est imprimée.",
+      "photo": "carte-coordonnee-03.svg",
+      "caption": "Schéma coté de la carte, étape 3 : Installer le papier floral"
+    },
+    {
+      "title": "Ajouter la bande contrastante",
+      "duration": "5 min",
+      "body": "Préparer une bande de 2 × 11 cm en papier à texture ou à motifs discrets. La placer verticalement près du bord droit du panneau, en chevauchant la partie fleurie.",
+      "tip": "La bande contraste relie les deux zones et donne de la profondeur sans multiplier les couleurs.",
+      "mistake": "Vérifier qu’elle ne déborde pas de la base ni ne cache le futur motif central.",
+      "photo": "carte-coordonnee-04.svg",
+      "caption": "Schéma coté de la carte, étape 4 : Ajouter la bande contrastante"
+    },
+    {
+      "title": "Créer le point focal",
+      "duration": "10 min",
+      "body": "Tamponner une fleur botanique sur un petit papier clair, ou utiliser une découpe florale originale, puis la placer vers le centre. Pour obtenir un effet de superposition, glisser seulement un petit carré de mousse adhésive sous la découpe.",
+      "tip": "Limiter le relief si la carte doit voyager dans une enveloppe. Sur un papier de collection, une découpe assortie remplace très bien le tampon.",
+      "mistake": "Ne pas superposer plusieurs gros motifs : le regard doit trouver un point focal clair.",
+      "photo": "carte-coordonnee-05.svg",
+      "caption": "Schéma coté de la carte, étape 5 : Créer le point focal"
+    },
+    {
+      "title": "Poser le message et terminer",
+      "duration": "8 min",
+      "body": "Découper une étiquette de 6 × 1,5 cm portant « Pour toi » ou un court message. La placer dans le tiers inférieur. Fixer tous les éléments, ajouter éventuellement trois petits points décoratifs, puis laisser sécher à plat.",
+      "tip": "Une carte complète tient souvent sur trois papiers, une découpe et un message : les vides font partie de la composition.",
+      "mistake": "Éviter d’ajouter un embellissement sous le pli ou sur la zone nécessaire à l’écriture.",
+      "photo": "carte-coordonnee-06.svg",
+      "caption": "Schéma coté de la carte, étape 6 : Poser le message et terminer"
+    }
+  ],
+  "mistakes": [
+    "Une bande décorative trop large masque le motif principal.",
+    "Un panneau collé sans vérifier le pli peut inverser le sens d’ouverture.",
+    "Une trop grande épaisseur d’embellissements peut empêcher la fermeture ou l’envoi postal."
+  ],
+  "variants": [
+    "Version Simple Stories : remplacer le motif tamponné par une découpe florale assortie à la collection.",
+    "Version Tim Holtz : patiner légèrement les bords et ajouter un petit chiffre tamponné.",
+    "Version hiver : motifs givrés et touches argentées."
+  ],
+  "layerGuide": [
+    "1. Base et pli, avant toute décoration.",
+    "2. Panneau uni pour établir les marges.",
+    "3. Papier floral et bande contrastante.",
+    "4. Motif central avec relief discret.",
+    "5. Étiquette et finitions."
+  ],
+  "sources": [
+    {
+      "label": "Simple Stories : collections de papiers coordonnées",
+      "url": "https://www.simplestories.com/collections"
+    }
+  ]
+});
+window.ATELIER_DATA.inspirations.unshift({"title":"Jardin de saison","subtitle":"Page photo, papiers floraux et superpositions","image":"jardin-page-finale.svg","filter":"Pages photo"},{"title":"Carterie botanique","subtitle":"Trois papiers coordonnés pour une carte élégante","image":"carte-coordonnee-finale.svg","filter":"Carterie"});
