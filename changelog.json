@@ -1,6 +1,47 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "releases": [
+    {
+      "version": "0.5.0",
+      "date": "2026-11-08",
+      "title": "Sept sketches à imaginer et à collectionner",
+      "intro": "Une bibliothèque créative inspirée de l’esprit des galeries de scrapbooking : compositions détaillées, papiers coordonnés, favoris et intégration au carnet personnel.",
+      "sections": [
+        {
+          "title": "Une bibliothèque de sept sketches originaux",
+          "items": [
+            "Deux pages photo 30 × 30 cm : « La photo vedette » et « Trois instants de voyage ».",
+            "Une carte botanique 10,5 × 15 cm et un tag à poche de 7 × 12 cm.",
+            "Une couverture de mini-album 10 × 10 cm, une page junk journal A5 et une composition à pochettes 15 × 20 cm.",
+            "Fiches avec dimensions exactes, matériel, six gestes détaillés et trois interprétations pour chaque modèle."
+          ]
+        },
+        {
+          "title": "Créer avec ses papiers préférés",
+          "items": [
+            "Trois palettes interchangeables sur les croquis : Vintage patiné, Papiers coordonnés et Hiver poudré.",
+            "Guide pratique pour composer un mini-kit avec un papier uni, deux motifs assortis et quelques embellissements.",
+            "Un défi simple : réaliser une création en utilisant seulement trois papiers et un sketch."
+          ]
+        },
+        {
+          "title": "Fonctions utiles et navigation",
+          "items": [
+            "Accès aux sketches depuis « Projets → Inspirations & sketches » avec filtre par type de création.",
+            "Possibilité d’enregistrer ses sketches préférés dans les favoris et de démarrer une fiche personnelle depuis chaque modèle.",
+            "Téléchargement des sketches en SVG vectoriel et impression de la fiche depuis le navigateur.",
+            "Affichage adapté au téléphone et fiches préparées pour l’impression A4."
+          ]
+        },
+        {
+          "title": "Données personnelles préservées",
+          "items": [
+            "Aucune modification des créations, photographies, inventaires et notes existants.",
+            "La sauvegarde JSON conserve également les favoris de sketches et la palette sélectionnée."
+          ]
+        }
+      ]
+    },
     {
       "version": "0.4.0",
       "date": "2026-11-08",

@@ -2,7 +2,7 @@
 
 Une première version **PWA statique** de l'application personnelle de scrapbooking, conçue pour mobile et ordinateur.
 
-## Contenu (version 0.4.0)
+## Contenu (version 0.5.0)
 
 - Accueil avec thème graphique au choix : printemps, été, automne, hiver.
 - Neuf cours progressifs avec matériel, conseils, schémas pédagogiques, erreurs à éviter, exercices, progression mémorisée et notes personnelles.
@@ -14,6 +14,20 @@ Une première version **PWA statique** de l'application personnelle de scrapbook
 - PWA hors connexion après une première visite en ligne.
 - Icône et bouton d'installation sur Android, iOS, Chrome et Edge lorsque le navigateur le permet.
 - Vérification de version depuis Mon atelier, notification de mise à jour, installation après confirmation et journal détaillé affiché une seule fois par version.
+
+## Nouveautés 0.5.0 : sketches & papiers coordonnés
+
+- Bibliothèque de **sept sketches originaux** dans Projets → Inspirations & sketches.
+- Pages photo, carterie, tag, couverture de mini-album, junk journal et page à pochettes.
+- Dessins interactifs SVG, mesures en cm, matériel, pas-à-pas et trois variantes.
+- Trois palettes de prévisualisation : Vintage patiné, Papiers coordonnés et Hiver poudré.
+- Inspiration des collections coordonnées sans reprendre de visuels ou modèles propriétaires.
+- Enregistrer un sketch comme favori, imprimer la fiche, télécharger un SVG vectoriel ou créer une fiche de carnet directement depuis la composition.
+- Guide « Mon kit de papiers » et petit défi des trois papiers.
+- Les SVG sont des **schémas de disposition**, non des patrons à taille réelle. Sur un format 30 × 30 cm, l'impression A4 réduit le dessin mais garde les dimensions chiffrées.
+- Les données personnelles sont conservées ; le champ palette est exporté et restauré dans les sauvegardes.
+
+Référence de contexte : [collections officielles Simple Stories](https://www.simplestories.com/collections). Application indépendante et non affiliée.
 
 ## Nouveautés 0.4.0 : l’atelier des encres
 
