@@ -1318,7 +1318,7 @@ p.steps.forEach((st,i)=>{
       "Tampon botanique, bloc et encre adaptée au papier",
       "Environ 55 cm de ficelle de coton ou ruban fin",
       "Étiquette ivoire 4 × 2 cm et petite perforatrice",
-      "Une ou deux cartes 10 × 6 cm ; petits souvenirs plats reproduits"
+      "Une ou deux cartes 9,5 × 6 cm ; petits souvenirs plats reproduits"
     ],
     "layerGuide": [
       "Découpe et rainurage du gabarit, puis retrait des bandes latérales inutiles.",
@@ -1341,7 +1341,7 @@ p.steps.forEach((st,i)=>{
       {
         "title": "Préparer le papier et le contenu",
         "duration": "7 min",
-        "body": "Choisir un papier souple de 160 à 200 g/m² et une encre compatible. Prévoir une ou deux cartes de 10 × 6 cm : elles doivent entrer facilement dans la pochette finie de 12 × 8 cm. Préparer le patron, les outils et environ 55 cm de ficelle. Faire le premier essai dans une feuille de brouillon.",
+        "body": "Choisir un papier souple de 160 à 200 g/m² et une encre compatible. Prévoir une ou deux cartes de 9,5 × 6 cm : elles doivent entrer facilement dans la pochette finie de 12 × 8 cm. Préparer le patron, les outils et environ 55 cm de ficelle. Faire le premier essai dans une feuille de brouillon.",
         "tip": "Cette pochette est décorative ; garder les originaux irremplaçables dans un rangement de conservation séparé et utiliser des copies ici.",
         "mistake": "Ne pas prévoir d'objet épais : le modèle ne comporte pas de soufflet.",
         "caption": "Le kraft, les cartes, les tampons, le plioir et la ficelle préparés.",
@@ -1392,7 +1392,7 @@ p.steps.forEach((st,i)=>{
       {
         "title": "Ajouter la carte et la fermeture",
         "duration": "8 min",
-        "body": "Glisser une ou deux cartes de 10 × 6 cm dans la poche. Écrire un message sur l'étiquette ivoire de 4 × 2 cm et perforer un petit trou près de son bord. Abaisser le rabat, passer la ficelle autour de la pochette dans le sens vertical et enfiler l'étiquette avant de nouer un petit nœud souple. La ficelle doit pouvoir être retirée sans déchirer le papier.",
+        "body": "Glisser une ou deux cartes de 9,5 × 6 cm dans la poche. Écrire un message sur l'étiquette ivoire de 4 × 2 cm et perforer un petit trou près de son bord. Abaisser le rabat, passer la ficelle autour de la pochette dans le sens vertical et enfiler l'étiquette avant de nouer un petit nœud souple. La ficelle doit pouvoir être retirée sans déchirer le papier.",
         "tip": "La ficelle est amovible : elle ne se colle pas et ne traverse pas le corps de la pochette.",
         "mistake": "Ne pas trop serrer le nœud ; un contenu trop épais déforme le rabat.",
         "caption": "Carte insérée, étiquette et ficelle amovible autour du rabat.",
