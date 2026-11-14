@@ -1,5 +1,5 @@
 window.ATELIER_DATA = {
-  version:'0.6.3',
+  version:'0.6.4',
   families:[
     {id:'tampons',label:'Tampons & impression',icon:'stamp'},
     {id:'encres',label:'Encres & fonds',icon:'droplets'},
@@ -850,4 +850,35 @@ p.steps.forEach((st,i)=>{
    step.photo='tags-givres-photo-'+String(index+1).padStart(2,'0')+'.webp';
    step.caption="Vue photoréaliste d'illustration : "+step.title;
  });
+})();
+
+
+/* V0.6.4 • Projet photos pour Jardin de saison et Une attention botanique */
+(()=>{
+ const projects=window.ATELIER_DATA.projects;
+ const configs=[
+  {id:'jardin-de-saison-guide',prefix:'jardin',n:9,
+   note:"Séquence d'illustrations photoréalistes générées pour expliquer le montage : ce ne sont pas des photographies prises pendant une réalisation réelle. Les mesures écrites et le sketch coté restent la référence.",
+   caption:"Montage de la page photo 30 × 30 cm"},
+  {id:'carte-jardin-coordonnee',prefix:'carte',n:6,
+   note:"Séquence de vues photoréalistes composées numériquement à partir d'éléments de scrapbooking : ce ne sont pas des photos d'un atelier réalisé. Le plan coté fait foi pour les découpes et le pli.",
+   caption:"Montage de la carte 10,5 × 15 cm"}
+ ];
+ for(const config of configs){
+  const p=projects.find(x=>x.id===config.id);if(!p)continue;
+  p.image=config.prefix+'-thumb.webp';
+  p.coverPhoto=config.prefix+'-photo-final.webp';
+  p.visualNote=config.note;
+  p.steps.forEach((step,i)=>{
+   const old=step.photo;
+   if(old&&old.toLowerCase().endsWith('.svg')){step.diagram=old;step.diagramCaption='Schéma coté de l’étape '+(i+1)+' : '+step.title;}
+   step.photo=config.prefix+'-photo-'+String(i+1).padStart(2,'0')+'.webp';
+   step.caption=config.caption+', étape '+(i+1)+' : '+step.title;
+  });
+ }
+ const inspirations=window.ATELIER_DATA.inspirations;
+ for(const ins of inspirations){
+  if(ins.title==='Jardin de saison')ins.image='jardin-thumb.webp';
+  if(ins.title==='Carterie botanique')ins.image='carte-thumb.webp';
+ }
 })();

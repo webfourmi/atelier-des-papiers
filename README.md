@@ -2,7 +2,7 @@
 
 Une première version **PWA statique** de l'application personnelle de scrapbooking, conçue pour mobile et ordinateur.
 
-## Contenu (version 0.6.3)
+## Contenu (version 0.6.4)
 
 - Accueil avec thème graphique au choix : printemps, été, automne, hiver.
 - Neuf cours progressifs avec matériel, conseils, schémas pédagogiques, erreurs à éviter, exercices, progression mémorisée et notes personnelles.
@@ -22,6 +22,15 @@ Une première version **PWA statique** de l'application personnelle de scrapbook
 - Les anciens SVG ne sont pas supprimés : ils sont consultables séparément par **Voir le schéma technique** ; la fiche et le patron PDF restent disponibles.
 - Toutes les illustrations photoréalistes sont **générées numériquement**, pas des photos de travaux réels.
 - Le service worker met en cache les dix nouveaux WebP. L'identifiant du projet et les sauvegardes existantes sont inchangés.
+
+## Nouveautés 0.6.4 : Jardin de saison et Une attention botanique en photos
+
+- **Jardin de saison** : 9 vues de montage photoréalistes, couverture et vignette WebP optimisée.
+- **Une attention botanique** : 6 vues photoréalistes construites à partir de matériaux de scrapbooking, couverture et vignette WebP.
+- Les schémas cotés SVG restent disponibles **séparément**, avec le bouton « Voir le schéma technique ».
+- Leurs dimensions et fiches imprimables ne changent pas ; les visuels ne sont pas des photographies d'une fabrication réellement effectuée.
+- Les deux projets conservent leurs identifiants et la progression enregistrée.
+- Préchargement PWA des nouvelles images, sans suppression des données utilisateur.
 
 ## Nouveautés 0.6.2 : corrections visuelles et Tags givrés
 

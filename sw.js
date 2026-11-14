@@ -1,4 +1,4 @@
-const CACHE='atelier-papiers-v0.6.3';
+const CACHE='atelier-papiers-v0.6.4';
 const CORE=['./','./index.html','./styles.css','./data.js','./app.js','./sketches.js','./sketch-ui.js','./manifest.webmanifest','./pwa.js','./changelog.json','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png',
 './assets/hero-autumn.svg','./assets/hero-winter.svg','./assets/hero-spring.svg','./assets/hero-summer.svg','./assets/stamps.svg','./assets/inks.svg','./assets/gradient.svg','./assets/emboss.svg','./assets/stencils.svg','./assets/card.svg','./assets/album.svg','./assets/journal.svg','./assets/tag.svg','./assets/photo.svg','./assets/gift.svg','./assets/sketch.svg','./assets/patron-tag-7x12cm.pdf','./assets/tag-vintage-final.webp','./assets/tag-photo-01.webp','./assets/tag-photo-02.webp','./assets/tag-photo-03.webp','./assets/tag-photo-04.webp','./assets/tag-photo-05.webp','./assets/tag-photo-06.webp','./assets/tag-photo-07.webp','./assets/tag-photo-08.webp','./assets/tag-photo-09.webp',
 './assets/duo-ink-oxide-01.webp',
@@ -65,7 +65,26 @@ const CORE=['./','./index.html','./styles.css','./data.js','./app.js','./sketche
 './assets/tags-givres-photo-06.webp',
 './assets/tags-givres-photo-07.webp',
 './assets/tags-givres-photo-08.webp',
-'./assets/tags-givres-photo-09.webp'];
+'./assets/tags-givres-photo-09.webp',
+'./assets/jardin-photo-final.webp',
+'./assets/jardin-thumb.webp',
+'./assets/jardin-photo-01.webp',
+'./assets/jardin-photo-02.webp',
+'./assets/jardin-photo-03.webp',
+'./assets/jardin-photo-04.webp',
+'./assets/jardin-photo-05.webp',
+'./assets/jardin-photo-06.webp',
+'./assets/jardin-photo-07.webp',
+'./assets/jardin-photo-08.webp',
+'./assets/jardin-photo-09.webp',
+'./assets/carte-photo-final.webp',
+'./assets/carte-thumb.webp',
+'./assets/carte-photo-01.webp',
+'./assets/carte-photo-02.webp',
+'./assets/carte-photo-03.webp',
+'./assets/carte-photo-04.webp',
+'./assets/carte-photo-05.webp',
+'./assets/carte-photo-06.webp'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(async()=>{const keys=await caches.keys();if(keys.includes('atelier-papiers-v0.2.0'))await self.skipWaiting()}))});;
 self.addEventListener('message',e=>{if(e.data?.type==='SKIP_WAITING')self.skipWaiting()});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('atelier-papiers-')&&k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim()});

@@ -1,6 +1,40 @@
 {
-  "version": "0.6.3",
+  "version": "0.6.4",
   "releases": [
+    {
+      "version": "0.6.4",
+      "date": "2026-11-14",
+      "title": "Deux projets photographiques et schémas séparés",
+      "intro": "La mise à niveau visuelle se poursuit avec Jardin de saison et Une attention botanique, en conservant les repères de dimensions et les sauvegardes.",
+      "sections": [
+        {
+          "title": "Jardin de saison",
+          "items": [
+            "Nouvelle couverture photographique et vignette optimisée pour la galerie.",
+            "Neuf vues de montage photoréalistes, correspondant aux neuf étapes existantes.",
+            "Schémas cotés conservés et accessibles via « Voir le schéma technique ».",
+            "Mise en avant photographique du projet sur la page d’accueil."
+          ]
+        },
+        {
+          "title": "Une attention botanique",
+          "items": [
+            "Nouvelle couverture, vignette légère et six vues photographiques illustrant la progression.",
+            "Conservation des schémas de pliage et de découpe, indépendants des photos.",
+            "Matériel, consignes, dimensions et progression inchangés."
+          ]
+        },
+        {
+          "title": "Application et sauvegardes",
+          "items": [
+            "Vignettes WebP légères pour accélérer la galerie des projets.",
+            "Images complètes disponibles au zoom et incluses dans le cache de l'application installée.",
+            "Aucune réinitialisation des notes, favoris, photographies ou étapes cochées.",
+            "Les images sont des visualisations photoréalistes générées ou composées, pas des photographies d'ateliers réellement exécutés."
+          ]
+        }
+      ]
+    },
     {
       "version": "0.6.3",
       "date": "2026-11-08",
