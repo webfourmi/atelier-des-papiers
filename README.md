@@ -2,7 +2,7 @@
 
 Une première version **PWA statique** de l'application personnelle de scrapbooking, conçue pour mobile et ordinateur.
 
-## Contenu (version 0.6.5)
+## Contenu (version 0.6.6)
 
 - Accueil avec thème graphique au choix : printemps, été, automne, hiver.
 - Neuf cours progressifs avec matériel, conseils, schémas pédagogiques, erreurs à éviter, exercices, progression mémorisée et notes personnelles.
@@ -22,6 +22,15 @@ Une première version **PWA statique** de l'application personnelle de scrapbook
 - Les anciens SVG ne sont pas supprimés : ils sont consultables séparément par **Voir le schéma technique** ; la fiche et le patron PDF restent disponibles.
 - Toutes les illustrations photoréalistes sont **générées numériquement**, pas des photos de travaux réels.
 - Le service worker met en cache les dix nouveaux WebP. L'identifiant du projet et les sauvegardes existantes sont inchangés.
+
+## Nouveautés 0.6.6 : Carnet de voyage et Jardin oublié
+
+- **Mon carnet de voyage** : accordéon de quatre volets 10 × 15 cm, huit étapes détaillées, pochette à trois languettes, couvertures bleues et ruban. Patron PDF A4 paysage à 100 % et fiche illustrée.
+- **Le jardin oublié** : double page A5 en sept étapes, collage de reproductions, voile fin de gesso, empreintes et découpes botaniques. Plan réduit de composition et fiche illustrée.
+- Quinze images générées au rendu photographique, quinze vues d'étapes (résultat final également utilisé en dernière étape), deux couvertures et deux miniatures optimisées. Les visuels restent des illustrations, pas des photos d'atelier réel.
+- Galerie actualisée et schémas séparés, liens cours/carnet, zoom et suivi d'étapes conservés.
+- Projets restant à harmoniser : **Souvenirs en images** et **Pochettes de petits trésors**, puis les cours techniques et l'accueil selon le plan éditorial.
+- Aucun changement de structure des données personnelles ni réinitialisation.
 
 ## Nouveautés 0.6.5 : Les feuilles du temps et Sauge & or
 

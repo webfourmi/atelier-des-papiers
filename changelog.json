@@ -1,6 +1,42 @@
 {
-  "version": "0.6.5",
+  "version": "0.6.6",
   "releases": [
+    {
+      "version": "0.6.6",
+      "date": "2026-11-14",
+      "title": "Carnet de voyage et Jardin oublié, pas à pas photographiques",
+      "intro": "Deux anciens projets sont repris au format des ateliers récents, avec vues photoréalistes, conseils de montage et fiches illustrées.",
+      "sections": [
+        {
+          "title": "Mon carnet de voyage",
+          "items": [
+            "Huit étapes : choix des souvenirs, découpe, accordéon, couvertures, papiers, pochette, photos et finitions.",
+            "Quatre volets de 10 × 15 cm ; couvertures de 10,5 × 15,5 cm et pochette de 8 × 5 cm.",
+            "Huit visuels photoréalistes originaux, nouvelle couverture et vignette légère.",
+            "Patron PDF A4 paysage à taille réelle en quatre pages, avec repère de contrôle de 5 cm ; fiche de réalisation illustrée en trois pages."
+          ]
+        },
+        {
+          "title": "Le jardin oublié",
+          "items": [
+            "Sept étapes pour une double page botanique dans un carnet A5 : collages, voile de gesso, tamponnage et motifs.",
+            "Sept visuels photoréalistes originaux, nouvelle couverture et vignette légère.",
+            "Plan de composition coté à échelle réduite et fiche illustrée en trois pages.",
+            "Conseils sur les papiers de reproduction, les couches fines et le séchage, avec sources GOLDEN et Library of Congress."
+          ]
+        },
+        {
+          "title": "Galerie et application",
+          "items": [
+            "Les deux vignettes de galerie montrent les nouveaux résultats ; chaque étape possède une image agrandissable.",
+            "Schémas techniques séparés des images photographiques et accessibles par un bouton distinct.",
+            "Les images d'étapes s'affichent en entier, sans recadrage vertical qui masque le matériel ou le geste.",
+            "Images générées signalées comme illustrations ; fichiers WebP optimisés et miniatures séparées.",
+            "Identifiants, carnet, favoris et sauvegardes conservés ; nouvelle version préparée dans le cache hors connexion."
+          ]
+        }
+      ]
+    },
     {
       "version": "0.6.5",
       "date": "2026-11-14",

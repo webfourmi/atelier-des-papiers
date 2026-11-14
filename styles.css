@@ -203,3 +203,8 @@ body[data-season="hiver"]{--primary:#687b89;--primary-strong:#465969;--primary-l
   .tag-stage-gallery .tag-stage-photo{height:225px;min-height:225px}
   .tag-schema-button{width:100%}
 }
+
+/* V0.6.6 : montrer le geste entier, quelle que soit la hauteur du texte. */
+.tag-stage-gallery{display:block;align-self:start;min-height:0;grid-template-rows:none}
+.tag-stage-gallery .tag-stage-photo{min-height:0;height:auto;aspect-ratio:3/2}
+.tag-stage-gallery .tag-stage-photo>img{object-fit:contain}

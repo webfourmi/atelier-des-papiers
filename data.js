@@ -1,5 +1,5 @@
 window.ATELIER_DATA = {
-  version:'0.6.5',
+  version:'0.6.6',
   families:[
     {id:'tampons',label:'Tampons & impression',icon:'stamp'},
     {id:'encres',label:'Encres & fonds',icon:'droplets'},
@@ -901,5 +901,272 @@ p.steps.forEach((st,i)=>{
     caption:u.title+', étape '+(i+1)+' : '+raw[0],
     ...(i===1?{diagram:u.pattern.split('/').pop(),diagramCaption:'Plan de construction et repères de coupe'}:{})
   }));
+ }
+})();
+
+/* V0.6.6 : carnet de voyage et junk journal, identifiants préservés. */
+(()=>{
+ const upgrades=[
+  {
+    "id": "album-voyage",
+    "prefix": "voyage",
+    "tutorialLabel": "MINI-ALBUM · ACCORDÉON DE VOYAGE",
+    "description": "Un petit accordéon kraft et bleu de quatre volets, avec photographies, légendes et pochette à tickets. Un carnet nomade à ouvrir comme un paysage.",
+    "level": "Découverte +",
+    "duration": "2 à 3 h + séchage",
+    "pattern": "./assets/patron-carnet-voyage.pdf",
+    "patternPreview": "plan-carnet-voyage.svg",
+    "patternDescription": "Patron PDF A4 paysage à 100 % : bande A 21 × 15 cm, bande B 20 × 15 cm, deux couvertures 10,5 × 15,5 cm et poche avec languettes. Quatre pages, une pièce ou un groupe par page ; contrôler le repère de 5 cm, sans ajuster à la page.",
+    "guide": "./assets/fiche-carnet-voyage.pdf",
+    "preparation": "Préparer deux bandes kraft : A de 21 × 15 cm et B de 20 × 15 cm. Elles formeront quatre volets de 10 × 15 cm. Choisir deux papiers coordonnés, un uni bleu et un motif carte discret. Travailler avec des copies de tickets et des tirages de travail. Le carnet est prévu pour des éléments plats, sans mousse 3D.",
+    "tipsIntro": "Faire d'abord tout l'accordéon sur un brouillon : les plis doivent alterner et les quatre volets se superposer sans forcer. Les images générées montrent les gestes ; utiliser le patron pour les cotes et la construction exacte.",
+    "materials": [
+      "Papier kraft de 180 à 220 g/m² : une bande de 21 × 15 cm et une de 20 × 15 cm",
+      "Deux couvertures en carton bleu épais de 10,5 × 15,5 cm, environ 250 à 300 g/m²",
+      "Quatre papiers de fond carte ou imprimé discret, 9 × 14 cm",
+      "Une pièce kraft de 10 × 6 cm pour la poche, avec trois languettes de 1 cm",
+      "Trois petites photos de 6 × 8 cm et une de 6 × 4 cm pour le volet à pochette",
+      "Deux ou trois étiquettes ivoire, environ 6 × 1,5 cm ; copies de tickets de moins de 7 cm de large",
+      "Ruban plat de 50 à 60 cm, largeur 5 à 10 mm",
+      "Règle, crayon, massicot ou ciseaux, plioir, colle pour papier en couche fine",
+      "Coins photo sans acide ni lignine pour des photographies à préserver, stylo fin et chutes d'essai"
+    ],
+    "layerGuide": [
+      "Bandes kraft rainurées, raccordées puis pliées en accordéon.",
+      "Ruban fixé sur l'intérieur de la couverture arrière ; dos des volets extrêmes collés sur les couvertures.",
+      "Fonds imprimés de 9 × 14 cm, sans couvrir les plis.",
+      "Pochette collée par ses trois languettes, ouverture supérieure libre.",
+      "Photos, petits tickets, étiquettes et écriture.",
+      "Séchage complet et fermeture par un nœud souple."
+    ],
+    "mistakes": [
+      "Oublier la languette de 1 cm de la bande A ou la compter comme un cinquième volet.",
+      "Coller un papier décoratif ou une photographie à cheval sur un pli.",
+      "Fermer le haut de la pochette avec de la colle.",
+      "Remplir le carnet d'éléments épais : cet accordéon n'a pas de dos compensant le relief."
+    ],
+    "variants": [
+      "Escapade en bord de mer : bleu grisé, kraft et photos de détails marins.",
+      "Souvenirs de randonnée : vert sauge, cartes reproduites et une phrase par étape.",
+      "Carnet de musée : détails d'œuvres photographiées lorsque c'est autorisé, billets reproduits et notes de visite."
+    ],
+    "sources": [
+      {
+        "label": "Library of Congress : matériaux et conservation des albums",
+        "url": "https://www.loc.gov/preservation/care/albums.html"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Choisir les souvenirs et les papiers",
+        "duration": "10 min",
+        "body": "Retenir trois photos de 6 × 8 cm et une petite de 6 × 4 cm pour le volet à pochette. Associer kraft, bleu uni et carte imprimée. Préparer les bandes, couvertures, ruban et petites étiquettes avant de commencer. Les formats photo peuvent être adaptés, à condition de rester à l'intérieur de chaque volet.",
+        "tip": "Pour des souvenirs irremplaçables, travailler avec des reproductions ; pour des tirages à préserver, privilégier les coins photo adaptés.",
+        "mistake": "Commencer le collage sans vérifier la taille des photos et des tickets.",
+        "caption": "Matériel et palette kraft, bleu et carte imprimée, avant le montage.",
+        "photo": "voyage-photo-01.webp"
+      },
+      {
+        "title": "Découper et rainurer les deux bandes",
+        "duration": "15 min",
+        "body": "Sur la bande A de 21 × 15 cm, marquer deux plis à 10 et 20 cm du bord gauche : il reste une languette de 1 cm à droite. Sur la bande B de 20 × 15 cm, marquer un pli à 10 cm. Rainurer doucement au plioir contre la règle, sans couper les fibres. Vérifier les mesures sur le patron imprimé à 100 %.",
+        "tip": "Tracer les repères au crayon sur le dos et les effacer après la rainure.",
+        "mistake": "Rainurer à 10 cm depuis chaque bord de A : le deuxième pli serait mal placé.",
+        "caption": "Deux bandes kraft rainurées : deux volets et une languette pour A, deux volets pour B.",
+        "diagram": "plan-carnet-voyage.svg",
+        "diagramCaption": "Plan coté : bandes, languette et raccord central",
+        "photo": "voyage-photo-02.webp"
+      },
+      {
+        "title": "Raccorder et former l'accordéon",
+        "duration": "15 min + séchage",
+        "body": "Poser les bandes côté intérieur vers soi. Glisser la languette de A sous le premier centimètre du bord gauche de B, en alignant les bords hauts et bas ; la face avant des quatre volets reste continue. Coller seulement la languette. Après séchage, alterner les plis : vallée à 10 cm, montagne au raccord à 20 cm, vallée à 30 cm. La bande assemblée mesure 40 × 15 cm.",
+        "tip": "Une vallée forme un V vu de face ; une montagne forme une arête. Tester la fermeture avant de décorer.",
+        "mistake": "Coller deux volets entiers l'un sur l'autre : on perdrait une page.",
+        "caption": "Raccord des deux bandes kraft et alternance des plis de l'accordéon.",
+        "photo": "voyage-photo-03.webp"
+      },
+      {
+        "title": "Fixer le ruban et les couvertures",
+        "duration": "15 min + séchage",
+        "body": "Découper deux couvertures bleues de 10,5 × 15,5 cm. Fixer le milieu du ruban horizontalement sur la face intérieure de la couverture arrière, à mi-hauteur, en laissant sortir ses deux extrémités. Coller le dos du dernier volet par-dessus. Coller la première couverture au dos du premier volet, avec une marge de 2,5 mm tout autour. Tester le déploiement.",
+        "tip": "Le ruban est pris entre le kraft et la couverture arrière ; il entoure ensuite le carnet fermé.",
+        "mistake": "Coller le ruban entre deux volets mobiles ou trop serrer le nœud.",
+        "caption": "Le ruban est fixé avant de coller le volet arrière sur sa couverture.",
+        "photo": "voyage-photo-04.webp"
+      },
+      {
+        "title": "Habiller les quatre volets",
+        "duration": "15 min",
+        "body": "Découper quatre fonds imprimés de 9 × 14 cm. En poser un au centre de chaque volet, à 5 mm des bords, puis coller en couche fine. Choisir des motifs discrets pour conserver la lisibilité des photographies. Laisser le papier bien à plat pendant la prise de la colle.",
+        "tip": "Répéter le même imprimé sur deux volets éloignés suffit à créer une continuité.",
+        "mistake": "Recouvrir un pli avec une bande décorative : elle se déchirera à l'ouverture.",
+        "caption": "Les quatre fonds imprimés sont centrés, avec une bordure kraft et des plis dégagés.",
+        "photo": "voyage-photo-05.webp"
+      },
+      {
+        "title": "Fabriquer la pochette à tickets",
+        "duration": "15 min",
+        "body": "Découper la pièce kraft de 10 × 6 cm. Rainurer à 1 cm du bord gauche, du bord droit et du bas. Retirer les deux petits carrés inférieurs de 1 × 1 cm, puis replier les trois languettes au dos. On obtient une face de 8 × 5 cm. Coller les seules languettes au bas du deuxième volet, à 1 cm du bord inférieur. Le haut reste ouvert.",
+        "tip": "Tester le passage d'un ticket de moins de 7 cm de large avant que la colle ne soit prise.",
+        "mistake": "Encoller toute la face arrière de la poche ou fermer son ouverture supérieure.",
+        "caption": "Trois languettes maintiennent la pochette ; le bord supérieur reste ouvert.",
+        "diagram": "plan-poche-voyage.svg",
+        "diagramCaption": "Gabarit de poche : découpe 10 × 6 cm, face 8 × 5 cm",
+        "photo": "voyage-photo-06.webp"
+      },
+      {
+        "title": "Installer les photos et les légendes",
+        "duration": "20 min",
+        "body": "Placer les grandes photos sur les volets 1, 3 et 4. Sur le volet 2, installer la petite photo dans la partie haute et garder la poche accessible en bas. Fixer les tirages à préserver avec des coins photo adaptés. Ajouter de petites étiquettes avec un lieu, une date et une phrase. Glisser seulement des copies de tickets dans la poche.",
+        "tip": "Composer d'abord à blanc ; une seule photo par volet et une légende courte rendent le carnet facile à lire.",
+        "mistake": "Un coin de photo ou une étiquette ne doit ni déborder sur un pli ni bloquer la poche.",
+        "caption": "Photographies, coins photo et étiquettes posés sur les fonds, pochette accessible.",
+        "photo": "voyage-photo-07.webp"
+      },
+      {
+        "title": "Contrôler la fermeture et garder une trace",
+        "duration": "10 min + séchage",
+        "body": "Attendre le séchage complet, retirer les tickets pour le premier essai et replier les quatre volets sans forcer. Replacer ensuite un ou deux petits souvenirs plats. Fermer avec un nœud souple. Photographier le carnet ouvert et fermé, puis ajouter ta réalisation à Mon carnet avec les papiers choisis et les dimensions utilisées.",
+        "tip": "Si le carnet ferme mal, réduire le contenu de la poche et l'épaisseur des décorations.",
+        "mistake": "Forcer sur les plis pour compenser une surépaisseur ou fermer avant séchage.",
+        "photo": "voyage-photo-final.webp",
+        "caption": "Accordéon terminé : quatre volets, couvertures bleues et ruban de lin."
+      }
+    ],
+    "image": "voyage-thumb.webp",
+    "coverPhoto": "voyage-photo-final.webp",
+    "tutorial": true,
+    "visualNote": "Images générées au rendu photographique pour illustrer les gestes, et non photos d'une réalisation effectuée. Les détails peuvent varier d'une vue à l'autre : suivre les mesures et les repères du plan."
+  },
+  {
+    "id": "journal-jardin",
+    "prefix": "journal",
+    "tutorialLabel": "JUNK JOURNAL · COLLAGES BOTANIQUES",
+    "description": "Une double page A5 aux papiers patinés, feuillages et voile de gesso. Deux groupes de collages se répondent en laissant respirer le carnet.",
+    "level": "Découverte +",
+    "duration": "1 h 15 à 1 h 45 + séchages",
+    "pattern": "./assets/plan-jardin-oublie.pdf",
+    "patternPreview": "plan-jardin-oublie.svg",
+    "patternDescription": "Plan de composition d'une double page A5 : positions indicatives des deux groupes, pli central dégagé, ordre des couches et tailles conseillées des fragments. Ce plan est réduit, ce n'est pas un gabarit à taille réelle.",
+    "guide": "./assets/fiche-jardin-oublie.pdf",
+    "preparation": "Choisir un carnet A5 dont les pages conviennent aux techniques humides, idéalement un papier mixed media d'environ 200 g/m² ou plus. Protéger les pages suivantes par une feuille de récupération. Utiliser des reproductions de textes et de cartes plutôt que des documents anciens précieux. Tester la colle, l'encre et le gesso sur une chute du même papier.",
+    "tipsIntro": "Le gesso blanc est semi-opaque : un voile très fin adoucit les contrastes, une couche épaisse cache les imprimés. Laisser sécher selon le produit et les conditions de l'atelier. Ne pas refermer le carnet tant qu'une surface est humide ou collante.",
+    "materials": [
+      "Carnet A5 adapté au mixed media, environ 200 g/m² ou plus ; double page ouverte d'environ 29,6 × 21 cm",
+      "Six à huit fragments de textes et cartes reproduits, environ 4 × 6 à 7 × 10 cm",
+      "Quelques chutes ivoire, kraft clair et rose poudré",
+      "Une découpe botanique plate de 8 à 12 cm et un petit papillon de papier",
+      "Deux petites étiquettes ivoire, environ 5 × 2 cm",
+      "Gesso blanc acrylique, petit pinceau plat ou carte plastique usagée",
+      "Colle pour papier et chiffon ; feuilles de protection",
+      "Tampon branche ou fougère, bloc acrylique, encre compatible avec papier et surface acrylique sèche",
+      "Ciseaux fins, stylo fin et chutes d'essai"
+    ],
+    "layerGuide": [
+      "Fragments de texte et de carte, placés à blanc en deux groupes.",
+      "Collage des fonds, du fragment le plus grand au plus petit.",
+      "Voile très fin de gesso sur certains raccords, puis séchage complet.",
+      "Empreintes botaniques sur les zones sèches et suffisamment lisses.",
+      "Découpes de fougère et de papillon, puis étiquettes.",
+      "Quelques mots manuscrits et photographie de la double page."
+    ],
+    "mistakes": [
+      "Remplir toute la double page : les deux groupes perdent leur lisibilité.",
+      "Coller un élément rigide à cheval sur le pli central.",
+      "Poser une couche épaisse de gesso qui masque les textes et ralentit le séchage.",
+      "Tamponner sur une texture trop irrégulière ou avant le séchage de l'acrylique."
+    ],
+    "variants": [
+      "Herbier de promenade : remplacer le papillon par la copie d'une petite étiquette de plante.",
+      "Jardin d'hiver : bleu grisé et branches fines sur des papiers ivoire.",
+      "Version sans gesso : choisir dès le départ des reproductions très pâles et poursuivre directement le tamponnage."
+    ],
+    "sources": [
+      {
+        "label": "GOLDEN : gesso, couches fines et temps de séchage",
+        "url": "https://goldenartistcolors.com/products/gesso"
+      },
+      {
+        "label": "Library of Congress : conserver les documents et albums",
+        "url": "https://www.loc.gov/preservation/care/albums.html"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparer la double page et les matières",
+        "duration": "10 min",
+        "body": "Ouvrir le carnet sur une double page A5 et protéger les feuilles voisines. Préparer six à huit fragments imprimés, deux étiquettes, une fougère et un petit papillon découpés. Garder une palette ivoire, brun et sauge avec une très petite touche rose. Tester les produits sur une chute.",
+        "tip": "Un papier mixed media épais supporte mieux les couches humides qu'une feuille de carnet ordinaire.",
+        "mistake": "Appliquer directement des produits humides sur une page très fine ou sur un document original.",
+        "caption": "Carnet, reproductions, découpes botaniques, colle, gesso et tampons préparés.",
+        "photo": "journal-photo-01.webp"
+      },
+      {
+        "title": "Composer les deux groupes à blanc",
+        "duration": "10 min",
+        "body": "Déchirer les fragments à la main pour obtenir des bords souples. Former un groupe en bas à gauche et un plus petit en haut à droite. Superposer texte, carte et papier uni, sans remplir le centre. Garder environ 1 cm libre de chaque côté du pli. Photographier cette disposition avant de déplacer les pièces.",
+        "tip": "Les tailles indiquées sont des repères : adapter les fragments à ton carnet et conserver des zones vides.",
+        "mistake": "Faire deux groupes strictement identiques ou recouvrir tout le fond.",
+        "caption": "Composition à blanc en diagonale, avec le pli central dégagé.",
+        "diagram": "plan-jardin-oublie.svg",
+        "diagramCaption": "Plan réduit : disposition des deux groupes et zones à préserver",
+        "photo": "journal-photo-02.webp"
+      },
+      {
+        "title": "Coller du fond vers le premier plan",
+        "duration": "15 min + séchage",
+        "body": "Reprendre la photo de repérage. Coller d'abord les grands fragments, puis les plus petits, avec une couche fine de colle jusqu'aux bords. Lisser doucement du centre vers l'extérieur. Garder les découpes botaniques et les étiquettes de côté. Laisser sécher avant d'ajouter un produit acrylique.",
+        "tip": "Tester les reproductions imprimées : certaines encres peuvent migrer au contact de colle ou de gesso humide.",
+        "mistake": "Déposer beaucoup de colle au centre et laisser les bords se relever.",
+        "caption": "Collage des papiers de fond, sans encore fixer les motifs principaux.",
+        "photo": "journal-photo-03.webp"
+      },
+      {
+        "title": "Adoucir les raccords avec le gesso",
+        "duration": "10 min + séchage complet",
+        "body": "Prélever très peu de gesso blanc avec un pinceau plat et l'essuyer presque entièrement sur une chute. Balayer quelques raccords entre papier et page pour obtenir un voile fin, sans recouvrir tous les imprimés. Nettoyer le pinceau rapidement. Laisser sécher à l'air selon la notice ; la durée dépend de l'épaisseur, de la température et de l'humidité.",
+        "tip": "S'arrêter quand le texte reste visible. Tester sur une chute sèche avant d'appliquer l'encre sur l'acrylique.",
+        "mistake": "Utiliser le gesso comme une pâte épaisse ou tamponner alors qu'il est encore humide.",
+        "caption": "Un voile fin de gesso atténue les raccords tout en laissant lire les papiers.",
+        "photo": "journal-photo-04.webp"
+      },
+      {
+        "title": "Tamponner les feuillages",
+        "duration": "10 min",
+        "body": "Sur la surface complètement sèche, choisir deux ou trois zones lisses près des collages. Encrer une branche ou une fougère, essayer sur une chute et tamponner verticalement, sans balancer le bloc. Utiliser une encre adaptée à la surface : le papier nu et le gesso n'absorbent pas de la même façon. Laisser sécher l'empreinte avant manipulation.",
+        "tip": "Si la surface est trop bosselée, tamponner sur un papier séparé, découper le motif puis le coller.",
+        "mistake": "Appuyer plus fort pour compenser les creux : cela peut déformer ou doubler l'empreinte.",
+        "caption": "Empreintes botaniques sur les parties sèches et lisses autour des collages.",
+        "photo": "journal-photo-05.webp"
+      },
+      {
+        "title": "Poser les motifs et les étiquettes",
+        "duration": "15 min",
+        "body": "Placer la fougère de papier dans le groupe de gauche et le petit papillon dans celui de droite. Les faire chevaucher légèrement les papiers de fond pour relier les couches. Ajouter deux petites étiquettes, environ 5 × 2 cm, et une touche rose discrète. Vérifier la composition puis coller à plat, sans mousse 3D.",
+        "tip": "Laisser dépasser un peu de chaque couche pour que l'on comprenne la superposition.",
+        "mistake": "Masquer tous les tampons sous les découpes ou ajouter du relief près de la reliure.",
+        "caption": "Fougère, papillon et étiquettes relient les couches sans encombrer le centre.",
+        "photo": "journal-photo-06.webp"
+      },
+      {
+        "title": "Écrire, laisser sécher et photographier",
+        "duration": "10 min + séchage",
+        "body": "Ajouter une date et quelques mots dans les espaces réservés. Essayer le stylo sur une chute : écrire sur papier nu si le gesso accroche la pointe. Attendre que les surfaces soient sèches et non collantes avant de refermer. Photographier la double page, puis enregistrer le projet dans Mon carnet avec les papiers et produits utilisés.",
+        "tip": "Une phrase courte sur une promenade ou une saison suffit à donner une histoire à la page.",
+        "mistake": "Refermer le carnet pour aplatir des couches encore humides : elles risquent d'adhérer entre elles.",
+        "photo": "journal-photo-final.webp",
+        "caption": "Double page terminée : deux groupes botaniques, quelques mots et beaucoup d'espace libre."
+      }
+    ],
+    "image": "journal-thumb.webp",
+    "coverPhoto": "journal-photo-final.webp",
+    "tutorial": true,
+    "visualNote": "Images générées au rendu photographique pour illustrer les gestes, et non photos d'une réalisation effectuée. Les détails peuvent varier d'une vue à l'autre : suivre les mesures et les repères du plan."
+  }
+];
+ for(const upgrade of upgrades){
+  const project=window.ATELIER_DATA.projects.find(p=>p.id===upgrade.id);
+  if(project){const {prefix,...content}=upgrade;Object.assign(project,content);}
  }
 })();
