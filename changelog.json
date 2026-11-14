@@ -1,6 +1,42 @@
 {
-  "version": "0.6.4",
+  "version": "0.6.5",
   "releases": [
+    {
+      "version": "0.6.5",
+      "date": "2026-11-14",
+      "title": "Les feuilles du temps et Sauge & or remis au nouveau format",
+      "intro": "Deux anciens projets deviennent de véritables ateliers détaillés, avec photos d'illustration, plans imprimables et dimensions exactes.",
+      "sections": [
+        {
+          "title": "Mini-album « Les feuilles du temps »",
+          "items": [
+            "Huit étapes de montage : pages, perforations, papiers, encre, photos, pochettes, tampons et reliure.",
+            "Un carnet à anneaux de 12 × 16 cm, avec six feuilles et deux anneaux de 25 mm.",
+            "Huit vues de montage photoréalistes, nouvelle couverture et vignette légère.",
+            "Patron A4 à taille réelle, avec trous Ø 5 mm et repère de contrôle de 50 mm.",
+            "Conseils de conservation pour les photographies originales."
+          ]
+        },
+        {
+          "title": "Carte botanique sauge & or",
+          "items": [
+            "Six étapes de construction de la carte pliée de 10,5 × 15 cm.",
+            "Six vues de montage avec une nouvelle photographie finale et une vignette de galerie.",
+            "Plan SVG de face avant à taille réelle, mesures de chaque couche et conseils d'embossage à chaud.",
+            "Variantes automnale, pastel et minimaliste."
+          ]
+        },
+        {
+          "title": "Cohérence et mises à jour",
+          "items": [
+            "Identifiants des projets inchangés pour conserver favoris, notes et liens existants.",
+            "Images au format WebP, schémas complémentaires distincts des vues photoréalistes.",
+            "Les images numériques sont des exemples de réalisation, non des photographies prises lors d'un atelier réel.",
+            "Le carnet et les données locales ne sont pas réinitialisés."
+          ]
+        }
+      ]
+    },
     {
       "version": "0.6.4",
       "date": "2026-11-14",

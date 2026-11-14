@@ -1,4 +1,4 @@
-const CACHE='atelier-papiers-v0.6.4';
+const CACHE='atelier-papiers-v0.6.5';
 const CORE=['./','./index.html','./styles.css','./data.js','./app.js','./sketches.js','./sketch-ui.js','./manifest.webmanifest','./pwa.js','./changelog.json','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png',
 './assets/hero-autumn.svg','./assets/hero-winter.svg','./assets/hero-spring.svg','./assets/hero-summer.svg','./assets/stamps.svg','./assets/inks.svg','./assets/gradient.svg','./assets/emboss.svg','./assets/stencils.svg','./assets/card.svg','./assets/album.svg','./assets/journal.svg','./assets/tag.svg','./assets/photo.svg','./assets/gift.svg','./assets/sketch.svg','./assets/patron-tag-7x12cm.pdf','./assets/tag-vintage-final.webp','./assets/tag-photo-01.webp','./assets/tag-photo-02.webp','./assets/tag-photo-03.webp','./assets/tag-photo-04.webp','./assets/tag-photo-05.webp','./assets/tag-photo-06.webp','./assets/tag-photo-07.webp','./assets/tag-photo-08.webp','./assets/tag-photo-09.webp',
 './assets/duo-ink-oxide-01.webp',
@@ -84,7 +84,27 @@ const CORE=['./','./index.html','./styles.css','./data.js','./app.js','./sketche
 './assets/carte-photo-03.webp',
 './assets/carte-photo-04.webp',
 './assets/carte-photo-05.webp',
-'./assets/carte-photo-06.webp'];
+'./assets/carte-photo-06.webp',
+'./assets/feuilles-photo-final.webp',
+'./assets/feuilles-thumb.webp',
+'./assets/feuilles-photo-01.webp',
+'./assets/feuilles-photo-02.webp',
+'./assets/feuilles-photo-03.webp',
+'./assets/feuilles-photo-04.webp',
+'./assets/feuilles-photo-05.webp',
+'./assets/feuilles-photo-06.webp',
+'./assets/feuilles-photo-07.webp',
+'./assets/feuilles-photo-08.webp',
+'./assets/sauge-photo-final.webp',
+'./assets/sauge-thumb.webp',
+'./assets/sauge-photo-01.webp',
+'./assets/sauge-photo-02.webp',
+'./assets/sauge-photo-03.webp',
+'./assets/sauge-photo-04.webp',
+'./assets/sauge-photo-05.webp',
+'./assets/sauge-photo-06.webp',
+'./assets/patron-feuilles-du-temps.svg',
+'./assets/plan-carte-sauge-or.svg'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(async()=>{const keys=await caches.keys();if(keys.includes('atelier-papiers-v0.2.0'))await self.skipWaiting()}))});;
 self.addEventListener('message',e=>{if(e.data?.type==='SKIP_WAITING')self.skipWaiting()});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('atelier-papiers-')&&k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim()});

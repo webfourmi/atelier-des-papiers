@@ -2,7 +2,7 @@
 
 Une première version **PWA statique** de l'application personnelle de scrapbooking, conçue pour mobile et ordinateur.
 
-## Contenu (version 0.6.4)
+## Contenu (version 0.6.5)
 
 - Accueil avec thème graphique au choix : printemps, été, automne, hiver.
 - Neuf cours progressifs avec matériel, conseils, schémas pédagogiques, erreurs à éviter, exercices, progression mémorisée et notes personnelles.
@@ -22,6 +22,14 @@ Une première version **PWA statique** de l'application personnelle de scrapbook
 - Les anciens SVG ne sont pas supprimés : ils sont consultables séparément par **Voir le schéma technique** ; la fiche et le patron PDF restent disponibles.
 - Toutes les illustrations photoréalistes sont **générées numériquement**, pas des photos de travaux réels.
 - Le service worker met en cache les dix nouveaux WebP. L'identifiant du projet et les sauvegardes existantes sont inchangés.
+
+## Nouveautés 0.6.5 : Les feuilles du temps et Sauge & or
+
+- **Les feuilles du temps** : mini-album relié avec 2 anneaux, 4 pages et 2 couvertures de 12 × 16 cm. Huit étapes détaillées, huit vues photoréalistes numériques et un patron A4 à l'échelle 1:1 (repère de 50 mm).
+- **Carte botanique sauge & or** : 6 étapes de carterie, format fermé 10,5 × 15 cm. Plan SVG et vues photoréalistes composées.
+- Les illustrations restent distinctes des schémas de dimensions ; elles sont générées numériquement et ne décrivent pas un atelier réellement photographié.
+- Identifiants des projets, sauvegardes, favoris et notes inchangés.
+- Nouvelles images WebP incluses dans le cache hors ligne PWA.
 
 ## Nouveautés 0.6.4 : Jardin de saison et Une attention botanique en photos
 
