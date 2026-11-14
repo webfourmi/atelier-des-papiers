@@ -208,3 +208,7 @@ body[data-season="hiver"]{--primary:#687b89;--primary-strong:#465969;--primary-l
 .tag-stage-gallery{display:block;align-self:start;min-height:0;grid-template-rows:none}
 .tag-stage-gallery .tag-stage-photo{min-height:0;height:auto;aspect-ratio:3/2}
 .tag-stage-gallery .tag-stage-photo>img{object-fit:contain}
+
+/* Les résultats finis restent visibles en entier, quel que soit le cadre. */
+.tag-cover{background:#eee7dc;display:grid;place-items:center}
+.tag-cover img{object-fit:contain}

@@ -1,4 +1,4 @@
-const CACHE='atelier-papiers-v0.6.6';
+const CACHE='atelier-papiers-v0.6.7';
 const CORE=['./','./index.html','./styles.css','./data.js','./app.js','./sketches.js','./sketch-ui.js','./manifest.webmanifest','./pwa.js','./changelog.json','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png',
 './assets/hero-autumn.svg','./assets/hero-winter.svg','./assets/hero-spring.svg','./assets/hero-summer.svg','./assets/stamps.svg','./assets/inks.svg','./assets/gradient.svg','./assets/emboss.svg','./assets/stencils.svg','./assets/card.svg','./assets/album.svg','./assets/journal.svg','./assets/tag.svg','./assets/photo.svg','./assets/gift.svg','./assets/sketch.svg','./assets/patron-tag-7x12cm.pdf','./assets/tag-vintage-final.webp','./assets/tag-photo-01.webp','./assets/tag-photo-02.webp','./assets/tag-photo-03.webp','./assets/tag-photo-04.webp','./assets/tag-photo-05.webp','./assets/tag-photo-06.webp','./assets/tag-photo-07.webp','./assets/tag-photo-08.webp','./assets/tag-photo-09.webp',
 './assets/duo-ink-oxide-01.webp',
@@ -128,7 +128,29 @@ const CORE=['./','./index.html','./styles.css','./data.js','./app.js','./sketche
 './assets/voyage-photo-06.webp',
 './assets/voyage-photo-07.webp',
 './assets/voyage-photo-final.webp',
-'./assets/voyage-thumb.webp'];
+'./assets/voyage-thumb.webp',
+"./assets/fiche-pochettes-tresors.pdf",
+"./assets/fiche-souvenirs-images.pdf",
+"./assets/patron-pochettes-tresors.pdf",
+"./assets/plan-pochettes-tresors.svg",
+"./assets/plan-souvenirs-images.pdf",
+"./assets/plan-souvenirs-images.svg",
+"./assets/souvenirs-photo-01.webp",
+"./assets/souvenirs-photo-02.webp",
+"./assets/souvenirs-photo-03.webp",
+"./assets/souvenirs-photo-04.webp",
+"./assets/souvenirs-photo-05.webp",
+"./assets/souvenirs-photo-06.webp",
+"./assets/souvenirs-photo-final.webp",
+"./assets/souvenirs-thumb.webp",
+"./assets/tresors-photo-01.webp",
+"./assets/tresors-photo-02.webp",
+"./assets/tresors-photo-03.webp",
+"./assets/tresors-photo-04.webp",
+"./assets/tresors-photo-05.webp",
+"./assets/tresors-photo-06.webp",
+"./assets/tresors-photo-final.webp",
+"./assets/tresors-thumb.webp"];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(async()=>{const keys=await caches.keys();if(keys.includes('atelier-papiers-v0.2.0'))await self.skipWaiting()}))});;
 self.addEventListener('message',e=>{if(e.data?.type==='SKIP_WAITING')self.skipWaiting()});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('atelier-papiers-')&&k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim()});

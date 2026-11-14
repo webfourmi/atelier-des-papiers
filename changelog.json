@@ -1,6 +1,42 @@
 {
-  "version": "0.6.6",
+  "version": "0.6.7",
   "releases": [
+    {
+      "version": "0.6.7",
+      "date": "2026-11-14",
+      "title": "Les onze projets au format illustré",
+      "intro": "Souvenirs en images et Pochettes de petits trésors rejoignent les tutoriels détaillés, avec images photoréalistes, conseils et documents imprimables.",
+      "sections": [
+        {
+          "title": "Souvenirs en images",
+          "items": [
+            "Page photo de 30 × 30 cm en sept étapes : choix des papiers, découpe, composition, tampons, mat, texte et finitions.",
+            "Sept visuels photoréalistes générés, nouvelle couverture et miniature optimisée.",
+            "Plan A4 de composition à échelle réduite avec toutes les cotes et fiche illustrée en trois pages.",
+            "Coins photo et usage de reproductions expliqués à partir des conseils de la Library of Congress."
+          ]
+        },
+        {
+          "title": "Pochettes de petits trésors",
+          "items": [
+            "Pochette à rabat de 12 × 8 cm : sept étapes pour découper, rainurer, tamponner, coller et installer la ficelle.",
+            "Sept visuels photoréalistes générés, couverture et miniature mises à jour.",
+            "Patron A4 à taille réelle avec contrôle de 5 cm, zones à retirer et deux languettes de collage.",
+            "Fiche illustrée en trois pages, conseils de sens des motifs et fermeture amovible."
+          ]
+        },
+        {
+          "title": "Galerie et suivi",
+          "items": [
+            "Les onze projets disposent désormais du format de tutoriel illustré ; les cours techniques restent la prochaine étape.",
+            "Schémas techniques consultables séparément ; images agrandissables et affichées entières.",
+          "Les couvertures des tutoriels affichent aussi la création entière, sans couper les côtés.",
+            "Images WebP et petites vignettes, documents et visuels disponibles dans le cache hors connexion.",
+            "Identifiants, favoris, notes, carnet et sauvegardes préservés."
+          ]
+        }
+      ]
+    },
     {
       "version": "0.6.6",
       "date": "2026-11-14",

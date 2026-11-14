@@ -2,7 +2,7 @@
 
 Une première version **PWA statique** de l'application personnelle de scrapbooking, conçue pour mobile et ordinateur.
 
-## Contenu (version 0.6.6)
+## Contenu (version 0.6.7)
 
 - Accueil avec thème graphique au choix : printemps, été, automne, hiver.
 - Neuf cours progressifs avec matériel, conseils, schémas pédagogiques, erreurs à éviter, exercices, progression mémorisée et notes personnelles.
@@ -22,6 +22,15 @@ Une première version **PWA statique** de l'application personnelle de scrapbook
 - Les anciens SVG ne sont pas supprimés : ils sont consultables séparément par **Voir le schéma technique** ; la fiche et le patron PDF restent disponibles.
 - Toutes les illustrations photoréalistes sont **générées numériquement**, pas des photos de travaux réels.
 - Le service worker met en cache les dix nouveaux WebP. L'identifiant du projet et les sauvegardes existantes sont inchangés.
+
+## Nouveautés 0.6.7 : les onze projets harmonisés
+
+- **Souvenirs en images** : page 30 × 30 cm, sept étapes détaillées, photographie sur mat kraft, coins photo, titre et légende. Plan de composition A4 à échelle réduite et fiche illustrée.
+- **Pochettes de petits trésors** : pochette plate à rabat 12 × 8 cm, sept étapes, empreintes botaniques et ficelle amovible. Patron A4 à 100 % avec repère de 5 cm et fiche illustrée.
+- Quatorze nouveaux visuels photoréalistes générés (six vues de travail et un résultat par projet), deux miniatures et quatre PDF. Les photographies illustrées ne sont pas celles de réalisations réellement effectuées.
+- Les onze projets utilisent le format guidé ; prochaine phase : cours techniques, puis accueil et inspirations.
+- Les identifiants et les données personnelles ne changent pas.
+- Les couvertures des tutoriels affichent les créations entières, sans recadrer leurs côtés.
 
 ## Nouveautés 0.6.6 : Carnet de voyage et Jardin oublié
 

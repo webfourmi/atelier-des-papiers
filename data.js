@@ -1,5 +1,5 @@
 window.ATELIER_DATA = {
-  version:'0.6.6',
+  version:'0.6.7',
   families:[
     {id:'tampons',label:'Tampons & impression',icon:'stamp'},
     {id:'encres',label:'Encres & fonds',icon:'droplets'},
@@ -1169,4 +1169,250 @@ p.steps.forEach((st,i)=>{
   const project=window.ATELIER_DATA.projects.find(p=>p.id===upgrade.id);
   if(project){const {prefix,...content}=upgrade;Object.assign(project,content);}
  }
+})();
+
+/* V0.6.7 : deux derniers projets harmonisés ; identifiants préservés. */
+(()=>{const upgrades=[
+  {
+    "id": "page-photo",
+    "title": "Souvenirs en images",
+    "description": "Une page de 30 × 30 cm qui met une photographie en valeur : tons sauge et kraft, superpositions légères et quelques mots pour raconter le souvenir.",
+    "tutorialLabel": "PAGE PHOTO · COMPOSITION & SOUVENIRS",
+    "duration": "1 h 30 environ",
+    "level": "Découverte +",
+    "pattern": "./assets/plan-souvenirs-images.pdf",
+    "patternPreview": "plan-souvenirs-images.svg",
+    "patternDescription": "Plan A4 à échelle réduite d'une page de 30 × 30 cm : dimensions des papiers et positions mesurées depuis le coin supérieur gauche. Ce plan ne sert pas de patron de découpe à taille réelle.",
+    "guide": "./assets/fiche-souvenirs-images.pdf",
+    "sources": [
+      {
+        "label": "Library of Congress : albums et conservation des photographies",
+        "url": "https://www.loc.gov/preservation/care/albums.html"
+      }
+    ],
+    "preparation": "Prévoir une photographie horizontale de 15 × 10 cm, de préférence une copie, et deux papiers coordonnés. Les mesures sont données largeur × hauteur. Repérer le haut de la page et travailler sur une table propre et sèche. Les coordonnées du plan partent du coin supérieur gauche de la base.",
+    "materials": [
+      "Base ivoire 30 × 30 cm, papier épais 220 à 300 g/m²",
+      "Papier vert sauge 20 × 22 cm et bande imprimée 24 × 8 cm",
+      "Une photographie horizontale 15 × 10 cm, copie de préférence",
+      "Mat kraft 16 × 11 cm, étiquette 8 × 2 cm, carte légende 12 × 4 cm",
+      "Quatre coins photo adaptés ; papiers sans acide ni lignine au contact du tirage",
+      "Petit tampon botanique, bloc et encre adaptée au papier",
+      "Deux petites découpes botaniques plates et un feutre fin",
+      "Règle, crayon, massicot ou ciseaux ; adhésif pour les seuls papiers décoratifs"
+    ],
+    "layerGuide": [
+      "Base ivoire 30 × 30 cm, puis panneau sauge 20 × 22 cm.",
+      "Bande botanique 24 × 8 cm, posée horizontalement sur le panneau.",
+      "Petites empreintes sur les zones libres, avant toute photographie.",
+      "Mat kraft 16 × 11 cm, puis photographie 15 × 10 cm retenue par ses coins.",
+      "Étiquette de titre, légende et deux petits détails botaniques."
+    ],
+    "variants": [
+      "Version randonnée : photographie de paysage, sauge et kraft, légende avec lieu et date.",
+      "Version famille : papiers unis doux et petite anecdote manuscrite, sans multiplier les motifs.",
+      "Version maritime : bleu grisé, ivoire et papier à carte, avec le même plan de composition."
+    ],
+    "mistakes": [
+      "Découper ou coller un original irremplaçable : préparer une copie pour le projet décoratif.",
+      "Ajouter une empreinte humide ou de la colle près du tirage déjà installé.",
+      "Multiplier les gros embellissements et perdre la photographie comme point focal."
+    ],
+    "steps": [
+      {
+        "title": "Choisir la photographie et les papiers",
+        "duration": "10 min",
+        "body": "Choisir une photographie horizontale de 15 × 10 cm avec un sujet lisible. Préparer une base ivoire de 30 × 30 cm, un uni sauge, un imprimé botanique et du kraft. Poser les papiers près du tirage pour vérifier que leurs couleurs accompagnent l'image.",
+        "tip": "Pour un tirage à préserver, privilégier des coins photo adaptés et des matériaux sans acide ni lignine au contact de l'image.",
+        "mistake": "Ne pas utiliser un document unique pour tester une colle, une encre ou un recadrage.",
+        "caption": "Les papiers, le tirage et les outils préparés séparément.",
+        "photo": "souvenirs-photo-01.webp"
+      },
+      {
+        "title": "Découper les cinq éléments",
+        "duration": "15 min",
+        "body": "Découper le panneau sauge à 20 × 22 cm, la bande imprimée à 24 × 8 cm et le mat kraft à 16 × 11 cm. Préparer aussi une étiquette de titre de 8 × 2 cm et une carte de légende de 12 × 4 cm. Garder la photographie à son format de 15 × 10 cm.",
+        "tip": "Le mat kraft dépassera de 5 mm sur chacun des quatre côtés du tirage.",
+        "mistake": "Ne pas confondre le mat de papier, qui encadre l'image, avec la base de la page.",
+        "caption": "Les pièces découpées et le massicot en cours d’utilisation.",
+        "diagram": "plan-souvenirs-images.svg",
+        "diagramCaption": "Plan technique : mesures et repères de montage",
+        "photo": "souvenirs-photo-02.webp"
+      },
+      {
+        "title": "Composer sans coller",
+        "duration": "12 min",
+        "body": "Depuis le coin supérieur gauche de la base, poser le panneau sauge à 2 cm du bord gauche et 3 cm du haut. Placer la bande imprimée à 2 cm du bord gauche et 13 cm du haut. Le coin supérieur gauche du mat se place à 6 cm du bord gauche et 6 cm du haut. Disposer provisoirement titre et légende en dessous, comme sur le plan.",
+        "tip": "Photographier cette disposition à blanc avant de retirer les éléments.",
+        "mistake": "Ne pas coller avant d'avoir contrôlé les marges et la place réservée au texte.",
+        "caption": "Essai à blanc des superpositions, sans tampon ni collage.",
+        "diagram": "plan-souvenirs-images.svg",
+        "diagramCaption": "Plan technique : mesures et repères de montage",
+        "photo": "souvenirs-photo-03.webp"
+      },
+      {
+        "title": "Tamponner puis fixer les fonds",
+        "duration": "12 min",
+        "body": "Retirer la photographie, le mat, le titre et la légende. Tester le tampon sur une chute, puis imprimer deux petites branches dans les angles libres de la base, en bas à gauche et en haut à droite. Laisser sécher selon la notice de l'encre. Fixer ensuite le panneau sauge et la bande imprimée avec un adhésif réservé aux papiers décoratifs.",
+        "tip": "Garder les empreintes discrètes : la photographie doit rester le premier élément regardé.",
+        "mistake": "Ne pas tamponner au-dessus d'une photographie installée et ne pas enfermer une encre encore humide.",
+        "caption": "Un tampon botanique sur un angle libre ; la photographie reste à l’écart.",
+        "photo": "souvenirs-photo-04.webp"
+      },
+      {
+        "title": "Matrer et installer la photographie",
+        "duration": "12 min",
+        "body": "Coller uniquement le mat kraft à l'emplacement prévu, sans le tirage. Une fois les papiers secs, installer la photographie au centre du mat avec quatre coins photo dont l'adhésif reste sur le support. La marge kraft est de 5 mm sur chaque côté. Vérifier que l'image reste plane et que les coins ne la serrent pas.",
+        "tip": "Si le tirage est précieux, conserver l'original séparément et exposer une reproduction dans cette page décorative.",
+        "mistake": "Ne pas mettre d'adhésif de loisir créatif directement sur le dos ou la face de l'original.",
+        "caption": "Gros plan sur les coins photo posés sur le mat kraft.",
+        "photo": "souvenirs-photo-05.webp"
+      },
+      {
+        "title": "Raconter le souvenir",
+        "duration": "20 min",
+        "body": "Écrire un titre court sur l'étiquette de 8 × 2 cm, puis la fixer à 11 cm du bord gauche et 20,5 cm du haut. Sur la carte de 12 × 4 cm, noter lieu, date et une ou deux phrases ; la placer à 9 cm du bord gauche et 23 cm du haut. Ajouter deux petits motifs botaniques plats, en bas à gauche du groupe et près de son angle supérieur droit, sans recouvrir la photographie.",
+        "tip": "Rédiger et laisser sécher le texte sur les pièces séparées avant leur fixation.",
+        "mistake": "Ne pas remplir toutes les zones vides : elles rendent la page plus lisible.",
+        "caption": "Ajout du titre manuscrit, de la légende et de deux petites découpes.",
+        "photo": "souvenirs-photo-06.webp"
+      },
+      {
+        "title": "Vérifier et garder une trace",
+        "duration": "9 min",
+        "body": "Contrôler les quatre coins du tirage, la tenue des papiers et le séchage complet. Photographier la page bien à plat, sans reflet. Ajouter ta version à Mon carnet avec le lieu, les papiers choisis et les dimensions. Ranger ensuite la page dans une protection adaptée au format, sans comprimer les petits reliefs.",
+        "tip": "Conserver aussi le fichier numérique de la photographie et une photo nette de la page terminée.",
+        "mistake": "Éviter le soleil direct et les pages d'album trop chargées ou serrées.",
+        "caption": "La page terminée : photographie, titre et souvenir manuscrit.",
+        "photo": "souvenirs-photo-final.webp"
+      }
+    ],
+    "image": "souvenirs-thumb.webp",
+    "coverPhoto": "souvenirs-photo-final.webp",
+    "tutorial": true,
+    "visualNote": "Images générées au rendu photographique pour illustrer le projet et les gestes. Elles ne sont pas les photos d'une réalisation effectuée. Pour les découpes et les emplacements précis, suivre le plan et les mesures écrites."
+  },
+  {
+    "id": "cadeaux-papier",
+    "title": "Pochettes de petits trésors",
+    "description": "Une pochette kraft à rabat de 12 × 8 cm, tamponnée et fermée par une ficelle amovible : pour glisser un mot doux ou une copie de petit souvenir.",
+    "tutorialLabel": "OBJETS EN PAPIER · PLIAGE & TAMPONNAGE",
+    "duration": "1 h environ, hors séchage",
+    "level": "Découverte +",
+    "pattern": "./assets/patron-pochettes-tresors.pdf",
+    "patternPreview": "plan-pochettes-tresors.svg",
+    "patternDescription": "Patron A4 à taille réelle : départ 14 × 20 cm, pochette finie 12 × 8 cm et rabat de 4 cm. Imprimer à 100 %, sans ajuster, puis vérifier le repère de 5 cm. Les deux languettes restent seulement sur la façade basse du gabarit.",
+    "guide": "./assets/fiche-pochettes-tresors.pdf",
+    "sources": [
+      {
+        "label": "Library of Congress : albums et conservation des photographies",
+        "url": "https://www.loc.gov/preservation/care/albums.html"
+      }
+    ],
+    "preparation": "Commencer par un essai en papier ordinaire. Le gabarit se lit verticalement, rabat en haut : 4 cm de rabat, 8 cm de dos, 8 cm de façade. Les languettes de 1 cm se trouvent uniquement de part et d'autre de la façade. La face intérieure sera placée vers toi pour le pliage.",
+    "materials": [
+      "Papier kraft ou imprimé souple, 160 à 200 g/m², rectangle de 14 × 20 cm",
+      "Patron A4 et papier de brouillon pour un premier essai",
+      "Règle, crayon, ciseaux et plioir",
+      "Double-face étroit de 5 à 6 mm ou colle papier en couche fine",
+      "Tampon botanique, bloc et encre adaptée au papier",
+      "Environ 55 cm de ficelle de coton ou ruban fin",
+      "Étiquette ivoire 4 × 2 cm et petite perforatrice",
+      "Une ou deux cartes 10 × 6 cm ; petits souvenirs plats reproduits"
+    ],
+    "layerGuide": [
+      "Découpe et rainurage du gabarit, puis retrait des bandes latérales inutiles.",
+      "Empreintes et petite décoration sur la face extérieure, avant assemblage.",
+      "Languettes de la façade repliées vers l’intérieur ; adhésif sur leur face qui touche le dos.",
+      "Façade relevée sur le dos ; ouverture supérieure laissée libre.",
+      "Cartes glissées dans la poche, rabat abaissé et ficelle amovible."
+    ],
+    "variants": [
+      "Noël vintage : papier crème, tampon de sapin et ficelle rouge, sans changer le patron.",
+      "Petit cadeau botanique : tampon fougère, étiquette ivoire et chute vert sauge.",
+      "Souvenir de voyage : copie de ticket et petite carte portant lieu et date."
+    ],
+    "mistakes": [
+      "Conserver des languettes sur le rabat ou sur le dos : elles n’y sont pas nécessaires.",
+      "Coller toute la façade ou le bord supérieur et condamner la poche.",
+      "Trop remplir la pochette : ce modèle est plat, sans soufflet."
+    ],
+    "steps": [
+      {
+        "title": "Préparer le papier et le contenu",
+        "duration": "7 min",
+        "body": "Choisir un papier souple de 160 à 200 g/m² et une encre compatible. Prévoir une ou deux cartes de 10 × 6 cm : elles doivent entrer facilement dans la pochette finie de 12 × 8 cm. Préparer le patron, les outils et environ 55 cm de ficelle. Faire le premier essai dans une feuille de brouillon.",
+        "tip": "Cette pochette est décorative ; garder les originaux irremplaçables dans un rangement de conservation séparé et utiliser des copies ici.",
+        "mistake": "Ne pas prévoir d'objet épais : le modèle ne comporte pas de soufflet.",
+        "caption": "Le kraft, les cartes, les tampons, le plioir et la ficelle préparés.",
+        "photo": "tresors-photo-01.webp"
+      },
+      {
+        "title": "Découper et marquer les plis",
+        "duration": "10 min",
+        "body": "Découper un rectangle de 14 × 20 cm. Le placer verticalement. Depuis le haut, marquer deux plis horizontaux à 4 cm et à 12 cm : ils délimitent rabat, dos et façade. Marquer aussi les lignes verticales à 1 cm de chaque bord latéral. Avec un plioir, rainurer sans trancher le papier.",
+        "tip": "Vérifier le repère de 5 cm sur le PDF imprimé avant de reporter les traits.",
+        "mistake": "Ne pas inverser les mesures depuis le haut : le petit panneau de 4 cm est le rabat.",
+        "caption": "Rainurage du rectangle avant de retirer les bandes latérales.",
+        "diagram": "plan-pochettes-tresors.svg",
+        "diagramCaption": "Plan technique : mesures et repères de montage",
+        "photo": "tresors-photo-02.webp"
+      },
+      {
+        "title": "Dégager le rabat et les languettes",
+        "duration": "9 min",
+        "body": "Retirer les bandes de 1 cm sur chaque côté du rabat et du dos, soit sur les 12 cm supérieurs du rectangle. Conserver les languettes latérales uniquement sur la façade, le panneau inférieur de 8 cm. Biseauter légèrement leurs extrémités sans réduire la façade. Couper en biais les deux coins supérieurs du rabat, sur environ 1 cm. Faire un essai de pliage sans colle.",
+        "tip": "Sur le plan, les zones grisées sont à retirer ; les deux languettes restantes sont les seules zones de collage.",
+        "mistake": "Ne pas couper les languettes de la façade et ne pas prolonger une coupe dans le dos.",
+        "caption": "Le gabarit dégagé : rabat en haut, dos au milieu et façade à deux languettes en bas.",
+        "diagram": "plan-pochettes-tresors.svg",
+        "diagramCaption": "Plan technique : mesures et repères de montage",
+        "photo": "tresors-photo-03.webp"
+      },
+      {
+        "title": "Tamponner la face extérieure",
+        "duration": "10 min",
+        "body": "Repérer la face qui sera visible à l'extérieur de la façade lors de l'essai de pliage et y faire un petit repère au crayon. Déplier, poser cette face vers toi, puis tamponner une ou deux fougères à l'emplacement choisi. Vérifier le sens du motif en repliant brièvement le modèle avant d'encrer. Ajouter si souhaité une petite chute sauge, hors des plis, puis laisser sécher.",
+        "tip": "Un essai en papier permet de comprendre le retournement des panneaux et le sens du motif.",
+        "mistake": "Ne pas tamponner le modèle déjà collé : les surépaisseurs rendent l'empreinte moins régulière.",
+        "caption": "Tamponnage botanique sur la façade encore dépliée.",
+        "photo": "tresors-photo-04.webp"
+      },
+      {
+        "title": "Former la poche et coller les côtés",
+        "duration": "12 min",
+        "body": "Placer la face intérieure vers toi et le rabat en haut. Replier les deux languettes de la façade vers l'intérieur. Poser un adhésif de 5 à 6 mm sur la face de chaque languette qui viendra toucher le dos. Relever la façade sur le pli à 12 cm et la presser contre le dos : seules les languettes adhèrent. Garder le bord supérieur ouvert, puis contrôler l'intérieur avec une carte de brouillon. Attendre la prise de la colle si nécessaire.",
+        "tip": "Tester à blanc la face des languettes qui touche le dos avant de poser l'adhésif.",
+        "mistake": "Aucune colle au centre de la façade, sur le bord supérieur ni sur le rabat.",
+        "caption": "Assemblage de la façade sur le dos ; la poche reste ouverte en haut.",
+        "diagram": "plan-pochettes-tresors.svg",
+        "diagramCaption": "Plan technique : mesures et repères de montage",
+        "photo": "tresors-photo-05.webp"
+      },
+      {
+        "title": "Ajouter la carte et la fermeture",
+        "duration": "8 min",
+        "body": "Glisser une ou deux cartes de 10 × 6 cm dans la poche. Écrire un message sur l'étiquette ivoire de 4 × 2 cm et perforer un petit trou près de son bord. Abaisser le rabat, passer la ficelle autour de la pochette dans le sens vertical et enfiler l'étiquette avant de nouer un petit nœud souple. La ficelle doit pouvoir être retirée sans déchirer le papier.",
+        "tip": "La ficelle est amovible : elle ne se colle pas et ne traverse pas le corps de la pochette.",
+        "mistake": "Ne pas trop serrer le nœud ; un contenu trop épais déforme le rabat.",
+        "caption": "Carte insérée, étiquette et ficelle amovible autour du rabat.",
+        "photo": "tresors-photo-06.webp"
+      },
+      {
+        "title": "Contrôler et photographier",
+        "duration": "4 min",
+        "body": "Ouvrir et refermer la pochette pour vérifier que rien n'accroche et que les cartes restent amovibles. Contrôler le séchage, la tenue des deux côtés et la propreté de l'ouverture. Photographier la version fermée puis ouverte, et l'ajouter à Mon carnet avec les papiers, les tampons et le destinataire souhaité.",
+        "tip": "Garder le patron avec une note sur le papier utilisé pour refaire une petite série assortie.",
+        "mistake": "Ne pas offrir une pochette dont la colle ou l'encre est encore humide.",
+        "caption": "Les pochettes terminées, l’une fermée et l’autre ouverte.",
+        "photo": "tresors-photo-final.webp"
+      }
+    ],
+    "image": "tresors-thumb.webp",
+    "coverPhoto": "tresors-photo-final.webp",
+    "tutorial": true,
+    "visualNote": "Images générées au rendu photographique pour illustrer le projet et les gestes. Elles ne sont pas les photos d'une réalisation effectuée. Pour les découpes et les emplacements précis, suivre le plan et les mesures écrites."
+  }
+];
+for(const u of upgrades){const p=window.ATELIER_DATA.projects.find(p=>p.id===u.id);if(p)Object.assign(p,u);}
 })();
